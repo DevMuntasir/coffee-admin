@@ -1,9 +1,9 @@
-import { NavLink, Link } from 'react-router-dom';
-import { Menu, Moon, Sun, ChefHat, CalendarClock, UtensilsCrossed, ListTodo } from 'lucide-react';
-import { Button } from '@/shared/components/ui/button';
 import { useAppDispatch, useAppSelector } from '@/app/hooks';
-import { cn } from '@/shared/lib/utils';
 import { setTheme } from '@/app/ui-slice';
+import { Button } from '@/shared/components/ui/button';
+import { cn } from '@/shared/lib/utils';
+import { CalendarClock, Menu, Moon, Sun } from 'lucide-react';
+import { Link, NavLink } from 'react-router-dom';
 const shortcuts = [
   // { label: 'POS', path: '/pos', icon: UtensilsCrossed },
   // { label: 'Orders', path: '/orders', icon: ListTodo },

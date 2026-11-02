@@ -1,25 +1,16 @@
-import {
-  LayoutDashboard,
-  UtensilsCrossed,
-  ListTodo,
-  CalendarClock,
-  Layers,
-  LayoutList,
-  UserRound,
-  FileSpreadsheet,
-  Wallet,
-  Users,
-  ChartColumn,
-  Store,
-  PanelsTopLeft,
-  Receipt,
-  CreditCard,
-  LockKeyhole,
-  UserRoundPlus,
-  Mail,
-  KeyRound,
-} from 'lucide-react';
 import type { NavigationGroup } from '@/shared/types/navigation';
+import {
+  CalendarClock,
+  ChartColumn,
+  KeyRound,
+  LayoutDashboard,
+  LockKeyhole,
+  Mail,
+  PanelsTopLeft,
+  Store,
+  UserRoundPlus,
+  Users
+} from 'lucide-react';
 export const navigation = [
   {
     label: 'MAIN',

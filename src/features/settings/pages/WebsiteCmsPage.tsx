@@ -53,29 +53,29 @@ const fields: Record<GroupId, Field[]> = {
     { key: 'secondaryLabel', label: 'Secondary button label' },
     { key: 'image', label: 'Hero image', type: 'image' },
   ],
-  about: [
-    { key: 'eyebrow', label: 'Eyebrow' },
-    { key: 'title', label: 'Heading' },
-    { key: 'description', label: 'Description', type: 'textarea' },
-    { key: 'quote', label: 'Featured quote', type: 'textarea' },
-    { key: 'image', label: 'About image', type: 'image' },
-  ],
+  // about: [
+  //   { key: 'eyebrow', label: 'Eyebrow' },
+  //   { key: 'title', label: 'Heading' },
+  //   { key: 'description', label: 'Description', type: 'textarea' },
+  //   { key: 'quote', label: 'Featured quote', type: 'textarea' },
+  //   { key: 'image', label: 'About image', type: 'image' },
+  // ],
   menu: [
     { key: 'eyebrow', label: 'Eyebrow' },
     { key: 'title', label: 'Heading' },
     { key: 'description', label: 'Description', type: 'textarea' },
   ],
-  journey: [
-    { key: 'eyebrow', label: 'Eyebrow' },
-    { key: 'title', label: 'Heading' },
-    { key: 'description', label: 'Description', type: 'textarea' },
-  ],
-  whyUs: [
-    { key: 'eyebrow', label: 'Eyebrow' },
-    { key: 'title', label: 'Heading' },
-    { key: 'description', label: 'Description', type: 'textarea' },
-    { key: 'image', label: 'Section image', type: 'image' },
-  ],
+  // journey: [
+  //   { key: 'eyebrow', label: 'Eyebrow' },
+  //   { key: 'title', label: 'Heading' },
+  //   { key: 'description', label: 'Description', type: 'textarea' },
+  // ],
+  // whyUs: [
+  //   { key: 'eyebrow', label: 'Eyebrow' },
+  //   { key: 'title', label: 'Heading' },
+  //   { key: 'description', label: 'Description', type: 'textarea' },
+  //   { key: 'image', label: 'Section image', type: 'image' },
+  // ],
   gallery: [
     { key: 'eyebrow', label: 'Eyebrow' },
     { key: 'title', label: 'Heading' },
@@ -110,14 +110,14 @@ const fields: Record<GroupId, Field[]> = {
     { key: 'twitter', label: 'X / Twitter URL' },
     { key: 'youtube', label: 'YouTube URL' },
   ],
-  seo: [
-    { key: 'title', label: 'Meta title' },
-    { key: 'description', label: 'Meta description', type: 'textarea' },
-    { key: 'keywords', label: 'Keywords' },
-    { key: 'canonicalUrl', label: 'Canonical URL' },
-    { key: 'ogImage', label: 'Social sharing image', type: 'image' },
-    { key: 'robots', label: 'Robots directive' },
-  ],
+  // seo: [
+  //   { key: 'title', label: 'Meta title' },
+  //   { key: 'description', label: 'Meta description', type: 'textarea' },
+  //   { key: 'keywords', label: 'Keywords' },
+  //   { key: 'canonicalUrl', label: 'Canonical URL' },
+  //   { key: 'ogImage', label: 'Social sharing image', type: 'image' },
+  //   { key: 'robots', label: 'Robots directive' },
+  // ],
 };
 
 function ImageField({
@@ -312,17 +312,17 @@ export default function WebsiteCmsPage() {
                         onChange={(event) => update(field.key, event.target.value)}
                       />
                     )}
-                    {active === 'seo' && field.key === 'title' && (
+                    {/* {active === 'seo' && field.key === 'title' && (
                       <small className="block text-right text-muted-foreground">
                         {(current[field.key] || '').length}/60 characters
                       </small>
-                    )}
+                    )} */}
                   </label>
                 )}
               </div>
             ))}
           </div>
-          {active === 'seo' && (
+          {/* {active === 'seo' && (
             <div className="mx-5 mb-5 rounded-xl border border-border bg-muted/30 p-4">
               <span className="text-xs text-muted-foreground">Search preview</span>
               <div className="mt-2 text-lg text-blue-700">
@@ -333,7 +333,7 @@ export default function WebsiteCmsPage() {
               </div>
               <p className="mt-1 max-w-2xl text-sm">{content.seo.description}</p>
             </div>
-          )}
+          )} */}
         </section>
       </div>
     </div>
