@@ -12,7 +12,7 @@ interface SidebarProps {
   onToggleCollapse?: () => void;
   mobile?: boolean;
 }
-const stores = [{ name: 'Adda Time', image: '/assets/img/store/store-01.jpg' }];
+const stores = [{ name: 'Brew & Sip', image: '/assets/img/store/store-01.jpg' }];
 
 function SidebarStoreSelector() {
   const [selectedStore, setSelectedStore] = useState(stores[0]);
