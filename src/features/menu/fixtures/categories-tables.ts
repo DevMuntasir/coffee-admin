@@ -10,7 +10,7 @@ export const tables: PreviewTableModel[] = [
           {
             text: 'Espresso',
             image: {
-              src: '/assets/img/category/category-01.png',
+              src: '/assets/img/coffee/espresso.png',
               alt: 'category',
             },
           },
@@ -50,7 +50,7 @@ export const tables: PreviewTableModel[] = [
           {
             text: 'Hot Coffee',
             image: {
-              src: '/assets/img/category/category-02.png',
+              src: '/assets/img/coffee/latte.png',
               alt: 'category',
             },
           },
@@ -90,7 +90,7 @@ export const tables: PreviewTableModel[] = [
           {
             text: 'Iced Coffee',
             image: {
-              src: '/assets/img/category/category-03.png',
+              src: '/assets/img/coffee/iced-coffee.png',
               alt: 'category',
             },
           },
@@ -130,7 +130,7 @@ export const tables: PreviewTableModel[] = [
           {
             text: 'Tea',
             image: {
-              src: '/assets/img/category/category-04.png',
+              src: '/assets/img/coffee/tea.png',
               alt: 'category',
             },
           },
@@ -170,7 +170,7 @@ export const tables: PreviewTableModel[] = [
           {
             text: 'Signature Drinks',
             image: {
-              src: '/assets/img/category/category-05.png',
+              src: '/assets/img/coffee/latte.png',
               alt: 'category',
             },
           },
@@ -210,7 +210,7 @@ export const tables: PreviewTableModel[] = [
           {
             text: 'Frappes',
             image: {
-              src: '/assets/img/category/category-06.png',
+              src: '/assets/img/coffee/iced-coffee.png',
               alt: 'category',
             },
           },
@@ -250,7 +250,7 @@ export const tables: PreviewTableModel[] = [
           {
             text: 'Sandwiches',
             image: {
-              src: '/assets/img/category/category-07.png',
+              src: '/assets/img/coffee/pastry.png',
               alt: 'category',
             },
           },
@@ -290,7 +290,7 @@ export const tables: PreviewTableModel[] = [
           {
             text: 'Cold Drinks',
             image: {
-              src: '/assets/img/category/category-08.png',
+              src: '/assets/img/coffee/iced-coffee.png',
               alt: 'category',
             },
           },
@@ -330,7 +330,7 @@ export const tables: PreviewTableModel[] = [
           {
             text: 'Coffee Beans',
             image: {
-              src: '/assets/img/category/category-09.png',
+              src: '/assets/img/coffee/espresso.png',
               alt: 'category',
             },
           },
@@ -370,7 +370,7 @@ export const tables: PreviewTableModel[] = [
           {
             text: 'Pastries',
             image: {
-              src: '/assets/img/category/category-10.png',
+              src: '/assets/img/coffee/pastry.png',
               alt: 'category',
             },
           },

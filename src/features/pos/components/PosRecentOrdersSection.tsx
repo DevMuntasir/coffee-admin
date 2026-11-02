@@ -1130,7 +1130,7 @@ export function PosRecentOrdersSection() {
               <div className={'avatar avatar-lg rounded-full shrink-0'}>
                 <img
                   className={'max-w-full h-auto'}
-                  src={'/assets/img/food/food-1.png'}
+                  src={'/assets/img/coffee/espresso.png'}
                   alt={'food'}
                 />
               </div>{' '}
@@ -1149,7 +1149,7 @@ export function PosRecentOrdersSection() {
               <div className={'avatar avatar-lg rounded-full shrink-0'}>
                 <img
                   className={'max-w-full h-auto'}
-                  src={'/assets/img/food/food-2.png'}
+                  src={'/assets/img/coffee/latte.png'}
                   alt={'food'}
                 />
               </div>{' '}
@@ -1168,7 +1168,7 @@ export function PosRecentOrdersSection() {
               <div className={'avatar avatar-lg rounded-full shrink-0'}>
                 <img
                   className={'max-w-full h-auto'}
-                  src={'/assets/img/food/food-3.png'}
+                  src={'/assets/img/coffee/iced-coffee.png'}
                   alt={'food'}
                 />
               </div>{' '}
@@ -1187,7 +1187,7 @@ export function PosRecentOrdersSection() {
               <div className={'avatar avatar-lg rounded-full shrink-0'}>
                 <img
                   className={'max-w-full h-auto'}
-                  src={'/assets/img/food/food-4.png'}
+                  src={'/assets/img/coffee/tea.png'}
                   alt={'food'}
                 />
               </div>{' '}
@@ -1206,7 +1206,7 @@ export function PosRecentOrdersSection() {
               <div className={'avatar avatar-lg rounded-full shrink-0'}>
                 <img
                   className={'max-w-full h-auto'}
-                  src={'/assets/img/food/food-5.png'}
+                  src={'/assets/img/coffee/matcha.png'}
                   alt={'food'}
                 />
               </div>{' '}
@@ -1225,7 +1225,7 @@ export function PosRecentOrdersSection() {
               <div className={'avatar avatar-lg rounded-full shrink-0'}>
                 <img
                   className={'max-w-full h-auto'}
-                  src={'/assets/img/food/food-6.png'}
+                  src={'/assets/img/coffee/pastry.png'}
                   alt={'food'}
                 />
               </div>{' '}
@@ -1250,7 +1250,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-01.jpg'}
+                        src={'/assets/img/coffee/espresso.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1300,7 +1300,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-02.jpg'}
+                        src={'/assets/img/coffee/latte.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1348,7 +1348,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-03.jpg'}
+                        src={'/assets/img/coffee/espresso.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1392,7 +1392,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-04.jpg'}
+                        src={'/assets/img/coffee/latte.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1439,7 +1439,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-10.jpg'}
+                        src={'/assets/img/coffee/pastry.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1488,7 +1488,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-05.jpg'}
+                        src={'/assets/img/coffee/matcha.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1532,7 +1532,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-16.jpg'}
+                        src={'/assets/img/coffee/iced-coffee.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1576,7 +1576,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-05.jpg'}
+                        src={'/assets/img/coffee/matcha.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1624,7 +1624,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-09.jpg'}
+                        src={'/assets/img/coffee/tea.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1670,7 +1670,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-08.jpg'}
+                        src={'/assets/img/coffee/latte.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1716,7 +1716,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-07.jpg'}
+                        src={'/assets/img/coffee/tea.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1760,7 +1760,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-05.jpg'}
+                        src={'/assets/img/coffee/matcha.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1813,7 +1813,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-01.jpg'}
+                        src={'/assets/img/coffee/espresso.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1863,7 +1863,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-03.jpg'}
+                        src={'/assets/img/coffee/espresso.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1907,7 +1907,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-05.jpg'}
+                        src={'/assets/img/coffee/matcha.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -1951,7 +1951,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-05.jpg'}
+                        src={'/assets/img/coffee/matcha.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -2004,7 +2004,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-02.jpg'}
+                        src={'/assets/img/coffee/latte.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -2052,7 +2052,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-08.jpg'}
+                        src={'/assets/img/coffee/latte.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -2107,7 +2107,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-05.jpg'}
+                        src={'/assets/img/coffee/matcha.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -2155,7 +2155,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-07.jpg'}
+                        src={'/assets/img/coffee/tea.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -2208,7 +2208,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-04.jpg'}
+                        src={'/assets/img/coffee/latte.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -2264,7 +2264,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-10.jpg'}
+                        src={'/assets/img/coffee/pastry.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -2313,7 +2313,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-09.jpg'}
+                        src={'/assets/img/coffee/tea.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -2359,7 +2359,7 @@ export function PosRecentOrdersSection() {
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
                         className={'max-w-full h-auto w-full rounded-md'}
-                        src={'/assets/img/items/food-07.jpg'}
+                        src={'/assets/img/coffee/tea.png'}
                         alt={'item'}
                       />
                     </DialogAction>{' '}
@@ -2603,7 +2603,7 @@ export function PosRecentOrdersSection() {
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
                       className={'max-w-full h-full rounded-sm'}
-                      src={'/assets/img/items/food-04.jpg'}
+                      src={'/assets/img/coffee/latte.png'}
                       alt={'food-img'}
                     />
                   </div>{' '}
@@ -2680,7 +2680,7 @@ export function PosRecentOrdersSection() {
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
                       className={'max-w-full h-full rounded-sm'}
-                      src={'/assets/img/items/food-01.jpg'}
+                      src={'/assets/img/coffee/espresso.png'}
                       alt={'food-img'}
                     />
                   </div>{' '}
@@ -2757,7 +2757,7 @@ export function PosRecentOrdersSection() {
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
                       className={'max-w-full h-full rounded-sm'}
-                      src={'/assets/img/items/food-20.jpg'}
+                      src={'/assets/img/coffee/matcha.png'}
                       alt={'food-img'}
                     />
                   </div>{' '}
@@ -2834,7 +2834,7 @@ export function PosRecentOrdersSection() {
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
                       className={'max-w-full h-full rounded-sm'}
-                      src={'/assets/img/items/food-08.jpg'}
+                      src={'/assets/img/coffee/latte.png'}
                       alt={'food-img'}
                     />
                   </div>{' '}

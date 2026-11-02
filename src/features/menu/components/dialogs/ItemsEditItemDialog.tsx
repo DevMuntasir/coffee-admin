@@ -15,7 +15,7 @@ export function ItemsEditItemDialog() {
               <div className={'avatar avatar-3xl border bg-muted mb-4'}>
                 <img
                   className={'max-w-full h-full rounded-sm'}
-                  src={'/assets/img/items/food-10.jpg'}
+                  src={'/assets/img/coffee/pastry.png'}
                   alt={'item'}
                 />
               </div>{' '}

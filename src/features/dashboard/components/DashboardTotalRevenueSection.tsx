@@ -133,7 +133,7 @@ export function DashboardTotalRevenueSection() {
               >
                 <img
                   className={'max-w-full h-auto'}
-                  src={'/assets/img/category/category-02.png'}
+                  src={'/assets/img/coffee/latte.png'}
                   alt={'food'}
                 />
               </Button>{' '}

@@ -64,4 +64,5 @@ src/
 `components.json` configures the shadcn CLI to add components to `src/shared/components/ui`. `Button` uses CVA and Radix Slot; dialogs use Radix Dialog with focus management and Escape dismissal. `Select` is an accessible native select adapter. Shared `DataTable<T>` accepts typed columns, rows, and stable row IDs; `PreviewDataTable` adapts static HTML samples to it without defining imaginary backend models.
 
 See [architecture and conventions](docs/architecture.md), [screen inventory](docs/screen-inventory.md), and [backend integration](docs/backend-integration.md).
+
 # coffee-admin

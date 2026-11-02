@@ -12,7 +12,7 @@ export function PosItemsDetailsDialog() {
             <div className={'items-img p-4 border rounded-md bg-muted'}>
               <img
                 className={'max-w-full h-auto img-1'}
-                src={'/assets/img/food/food-img-1.png'}
+                src={'/assets/img/coffee/latte.png'}
                 alt={'food'}
               />
             </div>{' '}
@@ -57,7 +57,7 @@ export function PosItemsDetailsDialog() {
                         <div className={'avatar rounded-full border'}>
                           <img
                             className={'max-w-full h-auto img-1'}
-                            src={'/assets/img/food/food-1.png'}
+                            src={'/assets/img/coffee/espresso.png'}
                             alt={'food'}
                           />
                         </div>{' '}
@@ -74,7 +74,7 @@ export function PosItemsDetailsDialog() {
                         <div className={'avatar rounded-full border'}>
                           <img
                             className={'max-w-full h-auto img-1'}
-                            src={'/assets/img/food/food-2.png'}
+                            src={'/assets/img/coffee/latte.png'}
                             alt={'food'}
                           />
                         </div>{' '}
@@ -89,7 +89,7 @@ export function PosItemsDetailsDialog() {
                         <div className={'avatar rounded-full border'}>
                           <img
                             className={'max-w-full h-auto img-1'}
-                            src={'/assets/img/food/food-3.png'}
+                            src={'/assets/img/coffee/iced-coffee.png'}
                             alt={'food'}
                           />
                         </div>{' '}

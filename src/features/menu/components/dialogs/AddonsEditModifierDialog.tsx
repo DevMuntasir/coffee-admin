@@ -13,7 +13,7 @@ export function AddonsEditModifierDialog() {
           <div className={'avatar avatar-3xl border bg-muted'}>
             <img
               className={'max-w-full h-auto'}
-              src={'/assets/img/items/food-02.jpg'}
+              src={'/assets/img/coffee/latte.png'}
               alt={'addon'}
             />
           </div>{' '}

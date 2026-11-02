@@ -9,7 +9,7 @@ export function ItemsItemsDetailsDialog() {
             <div className={'bg-muted p-4 rounded-md'}>
               <img
                 className={'max-w-full h-auto w-full'}
-                src={'/assets/img/items/food-17.jpg'}
+                src={'/assets/img/coffee/latte.png'}
                 alt={'item'}
               />
             </div>{' '}

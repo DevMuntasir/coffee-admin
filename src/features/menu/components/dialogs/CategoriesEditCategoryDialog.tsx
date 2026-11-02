@@ -11,7 +11,7 @@ export function CategoriesEditCategoryDialog() {
           <div className={'avatar avatar-3xl avatar-rounded border'}>
             <img
               className={'max-w-full h-auto'}
-              src={'/assets/img/category/category-01.png'}
+              src={'/assets/img/coffee/espresso.png'}
               alt={'category'}
             />
           </div>{' '}

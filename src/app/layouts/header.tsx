@@ -5,9 +5,9 @@ import { useAppDispatch, useAppSelector } from '@/app/hooks';
 import { cn } from '@/shared/lib/utils';
 import { setTheme } from '@/app/ui-slice';
 const shortcuts = [
-  { label: 'POS', path: '/pos', icon: UtensilsCrossed },
-  { label: 'Orders', path: '/orders', icon: ListTodo },
-  { label: 'Kitchen', path: '/kitchen', icon: ChefHat },
+  // { label: 'POS', path: '/pos', icon: UtensilsCrossed },
+  // { label: 'Orders', path: '/orders', icon: ListTodo },
+  // { label: 'Kitchen', path: '/kitchen', icon: ChefHat },
   { label: 'Reservation', path: '/reservations', icon: CalendarClock },
 ];
 export function Header({

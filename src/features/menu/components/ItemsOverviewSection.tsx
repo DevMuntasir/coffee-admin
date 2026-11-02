@@ -13,7 +13,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-01.jpg'}
+                  src={'/assets/img/coffee/espresso.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -76,7 +76,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-02.jpg'}
+                  src={'/assets/img/coffee/latte.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -139,7 +139,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-03.jpg'}
+                  src={'/assets/img/coffee/espresso.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -202,7 +202,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-04.jpg'}
+                  src={'/assets/img/coffee/latte.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -265,7 +265,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-05.jpg'}
+                  src={'/assets/img/coffee/matcha.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -328,7 +328,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-06.jpg'}
+                  src={'/assets/img/coffee/tea.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -391,7 +391,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-07.jpg'}
+                  src={'/assets/img/coffee/tea.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -454,7 +454,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-08.jpg'}
+                  src={'/assets/img/coffee/latte.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -517,7 +517,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-09.jpg'}
+                  src={'/assets/img/coffee/tea.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -580,7 +580,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-10.jpg'}
+                  src={'/assets/img/coffee/pastry.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -643,7 +643,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-11.jpg'}
+                  src={'/assets/img/coffee/espresso.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -706,7 +706,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-12.jpg'}
+                  src={'/assets/img/coffee/latte.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -769,7 +769,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-13.jpg'}
+                  src={'/assets/img/coffee/iced-coffee.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -832,7 +832,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-14.jpg'}
+                  src={'/assets/img/coffee/matcha.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -895,7 +895,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-15.jpg'}
+                  src={'/assets/img/coffee/pastry.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}
@@ -958,7 +958,7 @@ export function ItemsOverviewSection() {
               <DialogAction target={'items_details'} aria-label={'Action'}>
                 <img
                   className={'max-w-full h-auto mb-4 w-full rounded-md'}
-                  src={'/assets/img/items/food-16.jpg'}
+                  src={'/assets/img/coffee/iced-coffee.png'}
                   alt={'item'}
                 />
               </DialogAction>{' '}

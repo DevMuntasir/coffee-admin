@@ -1,5 +1,13 @@
 [
   {
+    "slug": "website-cms",
+    "legacy": "website-cms.html",
+    "feature": "cms",
+    "page": "WebsiteCmsPage",
+    "title": "Website CMS",
+    "layout": "workspace"
+  },
+  {
     "slug": "audit-report",
     "legacy": "audit-report.html",
     "feature": "reports",

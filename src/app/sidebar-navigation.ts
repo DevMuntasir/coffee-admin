@@ -1,7 +1,7 @@
 import { navigation } from './navigation';
 
 export type SidebarSectionId =
-  'main' | 'menu-management' | 'operations' | 'administration' | 'pages' | 'settings';
+  'main' | 'menu-management' | 'operations' | 'administration' | 'cms' | 'pages' | 'settings';
 function items(label: string) {
   const group = navigation.find((group) => group.label === label);
   if (!group) throw new Error(`Missing navigation group: ${label}`);
@@ -18,26 +18,33 @@ export const sidebarSections = [
       .map((item) => (item.path === '/reservations' ? { ...item, label: 'Reservation' } : item)),
   },
   {
-    id: 'menu-management',
-    label: 'MENU MANAGEMENT',
-    title: 'Management',
-    icon: 'layers',
-    items: items('MENU MANAGEMENT'),
+    id: 'cms',
+    label: 'WEBSITE CMS',
+    title: 'Website CMS',
+    icon: 'panels-top-left',
+    items: items('WEBSITE CMS'),
   },
-  {
-    id: 'operations',
-    label: 'OPERATIONS',
-    title: 'Operations',
-    icon: 'merge',
-    items: items('OPERATIONS'),
-  },
-  {
-    id: 'administration',
-    label: 'ADMINISTRATION',
-    title: 'Administration',
-    icon: 'user-cog',
-    items: [...items('ADMINISTRATION'), { ...items('REPORTS')[0], label: 'Reports' }],
-  },
+  // {
+  //   id: 'menu-management',
+  //   label: 'MENU MANAGEMENT',
+  //   title: 'Management',
+  //   icon: 'layers',
+  //   items: items('MENU MANAGEMENT'),
+  // },
+  // {
+  //   id: 'operations',
+  //   label: 'OPERATIONS',
+  //   title: 'Operations',
+  //   icon: 'merge',
+  //   items: items('OPERATIONS'),
+  // },
+  // {
+  //   id: 'administration',
+  //   label: 'ADMINISTRATION',
+  //   title: 'Administration',
+  //   icon: 'user-cog',
+  //   items: [...items('ADMINISTRATION'), { ...items('REPORTS')[0], label: 'Reports' }],
+  // },
   // {
   //   id: 'pages',
   //   label: 'PAGES',
@@ -45,7 +52,7 @@ export const sidebarSections = [
   //   icon: 'library-big',
   //   items: items('AUTHENTICATION'),
   // },
-  { id: 'settings', label: 'SETTINGS', title: 'Settings', icon: 'cog', items: items('SETTINGS') },
+  // { id: 'settings', label: 'SETTINGS', title: 'Settings', icon: 'cog', items: items('SETTINGS') },
 ] as const;
 
 /** Detail screens retain their parent's navigation category. */
@@ -86,4 +93,5 @@ export const sidebarItemIcons: Readonly<Record<string, string>> = {
   '/delivery-settings': 'bike',
   '/notifications-settings': 'bell',
   '/integrations-settings': 'pin',
+  '/website-cms': 'panels-top-left',
 };
