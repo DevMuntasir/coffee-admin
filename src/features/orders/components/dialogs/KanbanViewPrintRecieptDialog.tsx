@@ -31,19 +31,19 @@ export function KanbanViewPrintRecieptDialog() {
         <div className={'mb-4 pb-4 border-b'}>
           <h5 className={'mb-4 text-[16px]'}>{'Ordered Menus'}</h5>{' '}
           <h6 className={'text-[14px] font-normal flex items-center justify-between mb-4'}>
-            {'Grilled Chicken ×1 '}
+            {'Iced Americano ×1 '}
             <span className={'font-medium text-foreground'}>{'$49'}</span>{' '}
           </h6>{' '}
           <h6 className={'text-[14px] font-normal flex items-center justify-between mb-4'}>
-            {' Chicken Taco ×2 '}
+            {' Café Latte ×2 '}
             <span className={'font-medium text-foreground'}>{' $66'}</span>{' '}
           </h6>{' '}
           <h6 className={'text-[14px] font-normal flex items-center justify-between mb-4'}>
-            {' Lobster Thermidor ×1 '}
+            {' Café Mocha ×1 '}
             <span className={'font-medium text-foreground'}>{' $76'}</span>{' '}
           </h6>{' '}
           <h6 className={'text-[14px] font-normal flex items-center justify-between mb-0'}>
-            {' Grilled Chicken ×1 '}
+            {' Iced Americano ×1 '}
             <span className={'font-medium text-foreground'}>{' $62'}</span>{' '}
           </h6>{' '}
         </div>{' '}

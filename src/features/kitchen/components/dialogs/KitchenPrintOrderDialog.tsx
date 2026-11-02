@@ -36,7 +36,7 @@ export function KitchenPrintOrderDialog() {
               'text-[14px] font-normal flex items-start justify-between mb-4 flex-col gap-2'
             }
           >
-            {'Grilled Chicken ×1 '}
+            {'Iced Americano ×1 '}
             <div className={'bg-muted rounded-md py-1 px-2'}>
               <p className={'mb-0 font-medium flex items-center text-foreground'}>
                 <Icon name={'badge-info'} className={'mr-1'} />
@@ -49,14 +49,14 @@ export function KitchenPrintOrderDialog() {
               'text-[14px] font-normal flex items-start justify-between mb-4 flex-col gap-2'
             }
           >
-            {' Chicken Taco ×2 '}
+            {' Café Latte ×2 '}
           </h6>{' '}
           <h6
             className={
               'text-[14px] font-normal flex items-start justify-between mb-4 flex-col gap-2'
             }
           >
-            {' Lobster Thermidor ×1 '}
+            {' Café Mocha ×1 '}
             <div className={'bg-muted rounded-md py-1 px-2'}>
               <p className={'mb-0 font-medium flex items-center text-foreground'}>
                 <Icon name={'badge-info'} className={'mr-1'} />
@@ -65,7 +65,7 @@ export function KitchenPrintOrderDialog() {
             </div>{' '}
           </h6>{' '}
           <h6 className={'text-[14px] font-normal flex items-center justify-between mb-0'}>
-            {' Grilled Chicken ×1 '}
+            {' Iced Americano ×1 '}
           </h6>{' '}
         </div>{' '}
         <div className={'mb-4 pb-4 border-b'}>

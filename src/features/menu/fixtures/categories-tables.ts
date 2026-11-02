@@ -8,7 +8,7 @@ export const tables: PreviewTableModel[] = [
         id: 'categories-1-1',
         cells: [
           {
-            text: 'Sea Food',
+            text: 'Espresso',
             image: {
               src: '/assets/img/category/category-01.png',
               alt: 'category',
@@ -48,7 +48,7 @@ export const tables: PreviewTableModel[] = [
         id: 'categories-1-2',
         cells: [
           {
-            text: 'Pizza',
+            text: 'Hot Coffee',
             image: {
               src: '/assets/img/category/category-02.png',
               alt: 'category',
@@ -88,7 +88,7 @@ export const tables: PreviewTableModel[] = [
         id: 'categories-1-3',
         cells: [
           {
-            text: 'Salads',
+            text: 'Iced Coffee',
             image: {
               src: '/assets/img/category/category-03.png',
               alt: 'category',
@@ -128,7 +128,7 @@ export const tables: PreviewTableModel[] = [
         id: 'categories-1-4',
         cells: [
           {
-            text: 'Tacos',
+            text: 'Tea',
             image: {
               src: '/assets/img/category/category-04.png',
               alt: 'category',
@@ -168,7 +168,7 @@ export const tables: PreviewTableModel[] = [
         id: 'categories-1-5',
         cells: [
           {
-            text: 'Burgers',
+            text: 'Signature Drinks',
             image: {
               src: '/assets/img/category/category-05.png',
               alt: 'category',
@@ -208,7 +208,7 @@ export const tables: PreviewTableModel[] = [
         id: 'categories-1-6',
         cells: [
           {
-            text: 'Ice Cream',
+            text: 'Frappes',
             image: {
               src: '/assets/img/category/category-06.png',
               alt: 'category',
@@ -248,7 +248,7 @@ export const tables: PreviewTableModel[] = [
         id: 'categories-1-7',
         cells: [
           {
-            text: 'Pasta',
+            text: 'Sandwiches',
             image: {
               src: '/assets/img/category/category-07.png',
               alt: 'category',
@@ -288,7 +288,7 @@ export const tables: PreviewTableModel[] = [
         id: 'categories-1-8',
         cells: [
           {
-            text: 'Beverages',
+            text: 'Cold Drinks',
             image: {
               src: '/assets/img/category/category-08.png',
               alt: 'category',
@@ -328,7 +328,7 @@ export const tables: PreviewTableModel[] = [
         id: 'categories-1-9',
         cells: [
           {
-            text: 'Steaks',
+            text: 'Coffee Beans',
             image: {
               src: '/assets/img/category/category-09.png',
               alt: 'category',
@@ -368,7 +368,7 @@ export const tables: PreviewTableModel[] = [
         id: 'categories-1-10',
         cells: [
           {
-            text: 'Soups',
+            text: 'Pastries',
             image: {
               src: '/assets/img/category/category-10.png',
               alt: 'category',

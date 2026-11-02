@@ -16,10 +16,10 @@ export function ItemsItemsDetailsDialog() {
           </div>{' '}
           <div className={'col-span-12 lg:col-span-6 sm:col-span-12'}>
             <div className={'mb-4'}>
-              <h5>{'Chicken Taco'}</h5>{' '}
+              <h5>{'Café Latte'}</h5>{' '}
               <p>
                 {
-                  'Tender grilled chicken wrapped in soft tortillas, topped with fresh lettuce, salsa, and creamy sauce.'
+                  'Smooth espresso blended with steamed milk and finished with a light layer of foam.'
                 }
               </p>{' '}
             </div>{' '}

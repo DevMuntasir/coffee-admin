@@ -55,14 +55,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Grilled Salmon Steak'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Classic Espresso'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$80'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                  {'Non Veg'}
+                  {'Hot'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -118,14 +118,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Cheese Burst Pizza'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Cappuccino'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$66'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                  {'Veg'}
+                  {'Iced'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -181,14 +181,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Garlic Butter Shrimp'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Flat White'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$25'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                  {'Non Veg'}
+                  {'Hot'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -244,14 +244,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Chicken Taco'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Café Latte'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$38'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                  {'Non Veg'}
+                  {'Hot'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -307,14 +307,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Grilled Chicken'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Iced Americano'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$49'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                  {'Non Veg'}
+                  {'Hot'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -370,14 +370,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Grilled Veggie Taco'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Earl Grey Tea'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$69'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                  {'Non Veg'}
+                  {'Hot'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -433,14 +433,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Chicken Noodle Soup'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Masala Chai'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$45'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                  {'Non Veg'}
+                  {'Hot'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -496,14 +496,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Corn Pizza'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Caramel Macchiato'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$96'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                  {'Veg'}
+                  {'Iced'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -559,14 +559,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Shrimp Tom Yum'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Chocolate Muffin'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$25'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                  {'Non Veg'}
+                  {'Hot'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -622,14 +622,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Tomato Basil Soup'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Butter Croissant'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$44'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                  {'Veg'}
+                  {'Iced'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -692,7 +692,7 @@ export function ItemsOverviewSection() {
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                  {'Veg'}
+                  {'Iced'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -748,14 +748,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Pumpkin Soup'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Almond Croissant'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$78'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                  {'Veg'}
+                  {'Iced'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -811,14 +811,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Al Pastor Taco'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'English Breakfast Tea'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$48'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                  {'Veg'}
+                  {'Iced'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -874,14 +874,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Caesar Salad'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Blueberry Scone'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$69'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                  {'Veg'}
+                  {'Iced'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -937,14 +937,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Quinoa Salad'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Banana Bread'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$110'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                  {'Veg'}
+                  {'Iced'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}
@@ -1000,14 +1000,14 @@ export function ItemsOverviewSection() {
               </ul>{' '}
             </div>{' '}
             <h6 className={'text-[14px] font-semibold'}>
-              <DialogAction target={'items_details'}>{'Lemon Mint Juice'}</DialogAction>{' '}
+              <DialogAction target={'items_details'}>{'Iced Lemon Tea'}</DialogAction>{' '}
             </h6>{' '}
             <div className={'flex items-center justify-between'}>
               <p className={'mb-0'}>{'$96'}</p>{' '}
               <div>
                 <span className={'flex items-center'}>
                   <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                  {'Veg'}
+                  {'Iced'}
                 </span>{' '}
               </div>{' '}
             </div>{' '}

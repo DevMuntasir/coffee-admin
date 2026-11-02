@@ -1054,7 +1054,7 @@ export function PosRecentOrdersSection() {
                 defaultChecked={true}
                 aria-label={'checkbox'}
               />
-              <span className={'dot success mr-1'}></span> {' Veg '}
+              <span className={'dot success mr-1'}></span> {' Hot '}
             </label>{' '}
             <label className={'flex items-center text-[14px] text-foreground'}>
               <input
@@ -1062,7 +1062,7 @@ export function PosRecentOrdersSection() {
                 type={'checkbox'}
                 aria-label={'checkbox'}
               />
-              <span className={'dot mr-1'}></span> {' Non Veg '}
+              <span className={'dot mr-1'}></span> {' Iced '}
             </label>{' '}
             <label className={'flex items-center text-[14px] text-foreground'}>
               <input
@@ -1070,7 +1070,7 @@ export function PosRecentOrdersSection() {
                 type={'checkbox'}
                 aria-label={'checkbox'}
               />
-              <span className={'dot warning mr-1'}></span> {' Egg '}
+              <span className={'dot warning mr-1'}></span> {' Decaf '}
             </label>{' '}
           </div>{' '}
           <div className={'pos-menu-actions'}>
@@ -1154,7 +1154,7 @@ export function PosRecentOrdersSection() {
                 />
               </div>{' '}
               <div>
-                <h6 className={'text-[14px] font-semibold mb-1'}>{'Sea Food'}</h6>{' '}
+                <h6 className={'text-[14px] font-semibold mb-1'}>{'Espresso'}</h6>{' '}
                 <p className={'text-muted-foreground font-normal mb-0'}>{'200 Menus'}</p>{' '}
               </div>{' '}
             </PreviewTabTrigger>{' '}
@@ -1173,7 +1173,7 @@ export function PosRecentOrdersSection() {
                 />
               </div>{' '}
               <div>
-                <h6 className={'text-[14px] font-semibold mb-1'}>{'Pizza'}</h6>{' '}
+                <h6 className={'text-[14px] font-semibold mb-1'}>{'Hot Coffee'}</h6>{' '}
                 <p className={'text-muted-foreground font-normal mb-0'}>{'180 Menus'}</p>{' '}
               </div>{' '}
             </PreviewTabTrigger>{' '}
@@ -1192,7 +1192,7 @@ export function PosRecentOrdersSection() {
                 />
               </div>{' '}
               <div>
-                <h6 className={'text-[14px] font-semibold mb-1'}>{'Salads'}</h6>{' '}
+                <h6 className={'text-[14px] font-semibold mb-1'}>{'Iced Coffee'}</h6>{' '}
                 <p className={'text-muted-foreground font-normal mb-0'}>{'180 Menus'}</p>{' '}
               </div>{' '}
             </PreviewTabTrigger>{' '}
@@ -1211,7 +1211,7 @@ export function PosRecentOrdersSection() {
                 />
               </div>{' '}
               <div>
-                <h6 className={'text-[14px] font-semibold mb-1'}>{'Tacos'}</h6>{' '}
+                <h6 className={'text-[14px] font-semibold mb-1'}>{'Tea'}</h6>{' '}
                 <p className={'text-muted-foreground font-normal mb-0'}>{'150 Menus'}</p>{' '}
               </div>{' '}
             </PreviewTabTrigger>{' '}
@@ -1230,7 +1230,7 @@ export function PosRecentOrdersSection() {
                 />
               </div>{' '}
               <div>
-                <h6 className={'text-[14px] font-semibold mb-1'}>{'Soups'}</h6>{' '}
+                <h6 className={'text-[14px] font-semibold mb-1'}>{'Pastries'}</h6>{' '}
                 <p className={'text-muted-foreground font-normal mb-0'}>{'180 Menus'}</p>{' '}
               </div>{' '}
             </PreviewTabTrigger>{' '}
@@ -1261,17 +1261,17 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Sea Food'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Espresso'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
                       <DialogAction target={'items_details'}>
-                        {'Grilled Salmon Steak'}
+                        {'Classic Espresso'}
                       </DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
@@ -1311,18 +1311,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Pizza'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Hot Coffee'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                          {' Veg'}
+                          {' Iced'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>
-                        {'Cheese Burst Pizza'}
-                      </DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Cappuccino'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$66'}</p>{' '}
@@ -1357,18 +1355,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Sea Food'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Espresso'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>
-                        {'Garlic Butter Shrimp'}
-                      </DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Flat White'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$25'}</p>{' '}
@@ -1403,16 +1399,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Tacos'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Tea'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>{'Chicken Taco'}</DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Café Latte'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>
@@ -1450,17 +1446,17 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Soups'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Pastries'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
                       <DialogAction target={'items_details'}>
-                        {'Tomato Basil Soup'}
+                        {'Butter Croissant'}
                       </DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
@@ -1499,16 +1495,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Sushi'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Matcha'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>{'Vegetable Roll'}</DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Matcha Latte'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$66'}</p>{' '}
@@ -1543,18 +1539,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Beverages'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Cold Drinks'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>
-                        {'Lemon Mint Juice'}
-                      </DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Iced Lemon Tea'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$96'}</p>{' '}
@@ -1593,16 +1587,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Salads'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Iced Coffee'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>{'Grilled Chicken'}</DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Iced Americano'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$49'}</p>{' '}
@@ -1637,16 +1631,18 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Soups'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Pastries'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>{'Shrimp Tom Yum'}</DialogAction>{' '}
+                      <DialogAction target={'items_details'}>
+                        {'Chocolate Muffin'}
+                      </DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$25'}</p>{' '}
@@ -1681,16 +1677,18 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Pizza'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Hot Coffee'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>{'Corn Pizza'}</DialogAction>{' '}
+                      <DialogAction target={'items_details'}>
+                        {'Caramel Macchiato'}
+                      </DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$96'}</p>{' '}
@@ -1725,18 +1723,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Soups'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Pastries'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>
-                        {'Chicken Noodle Soup'}
-                      </DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Masala Chai'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$45'}</p>{' '}
@@ -1771,18 +1767,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Sea Food'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Espresso'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>
-                        {'Lobster Thermidor'}
-                      </DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Café Mocha'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$56'}</p>{' '}
@@ -1830,17 +1824,17 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Sea Food'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Espresso'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
                       <DialogAction target={'items_details'}>
-                        {'Grilled Salmon Steak'}
+                        {'Classic Espresso'}
                       </DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
@@ -1876,18 +1870,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Sea Food'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Espresso'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>
-                        {'Garlic Butter Shrimp'}
-                      </DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Flat White'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$25'}</p>{' '}
@@ -1922,16 +1914,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Sushi'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Matcha'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>{'Vegetable Roll'}</DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Matcha Latte'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$66'}</p>{' '}
@@ -1966,18 +1958,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Sea Food'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Espresso'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>
-                        {'Lobster Thermidor'}
-                      </DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Café Mocha'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$56'}</p>{' '}
@@ -2025,18 +2015,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Pizza'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Hot Coffee'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                          {' Veg'}
+                          {' Iced'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>
-                        {'Cheese Burst Pizza'}
-                      </DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Cappuccino'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$66'}</p>{' '}
@@ -2071,16 +2059,18 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Pizza'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Hot Coffee'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>{'Corn Pizza'}</DialogAction>{' '}
+                      <DialogAction target={'items_details'}>
+                        {'Caramel Macchiato'}
+                      </DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$96'}</p>{' '}
@@ -2128,16 +2118,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Salads'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Iced Coffee'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>{'Grilled Chicken'}</DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Iced Americano'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$49'}</p>{' '}
@@ -2172,18 +2162,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Soups'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Pastries'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>
-                        {'Chicken Noodle Soup'}
-                      </DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Masala Chai'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$45'}</p>{' '}
@@ -2227,16 +2215,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Tacos'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Tea'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>{'Chicken Taco'}</DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Café Latte'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>
@@ -2283,17 +2271,17 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Soups'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Pastries'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
                       <DialogAction target={'items_details'}>
-                        {'Tomato Basil Soup'}
+                        {'Butter Croissant'}
                       </DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
@@ -2332,16 +2320,18 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Soups'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Pastries'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>{'Shrimp Tom Yum'}</DialogAction>{' '}
+                      <DialogAction target={'items_details'}>
+                        {'Chocolate Muffin'}
+                      </DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$25'}</p>{' '}
@@ -2376,18 +2366,16 @@ export function PosRecentOrdersSection() {
                   </div>{' '}
                   <div>
                     <div className={'flex items-center justify-between mb-1'}>
-                      <p className={'text-[12px] mb-0'}>{'Soups'}</p>{' '}
+                      <p className={'text-[12px] mb-0'}>{'Pastries'}</p>{' '}
                       <div>
                         <span className={'flex items-center'}>
                           <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                          {'Non Veg'}
+                          {'Hot'}
                         </span>{' '}
                       </div>{' '}
                     </div>{' '}
                     <h6 className={'text-[14px] font-semibold truncate mb-2'}>
-                      <DialogAction target={'items_details'}>
-                        {'Chicken Noodle Soup'}
-                      </DialogAction>{' '}
+                      <DialogAction target={'items_details'}>{'Masala Chai'}</DialogAction>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between gap-2'}>
                       <p className={'mb-0 text-foreground'}>{'$45'}</p>{' '}
@@ -2614,14 +2602,14 @@ export function PosRecentOrdersSection() {
                 <Button variant="ghost" className={'pos-cart-product'}>
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
-                      className={'max-w-full h-auto rounded-md'}
+                      className={'max-w-full h-full rounded-sm'}
                       src={'/assets/img/items/food-04.jpg'}
                       alt={'food-img'}
                     />
                   </div>{' '}
                   <div className={'overflow-hidden'}>
                     <h6 className={'mb-1 text-[14px] font-semibold truncate mb-2'}>
-                      {'Chicken Taco'}
+                      {'Café Latte'}
                     </h6>{' '}
                     <Badge className={'badge-md bg-muted text-foreground mb-0'}>
                       {'Medium'}
@@ -2691,14 +2679,14 @@ export function PosRecentOrdersSection() {
                 <Button variant="ghost" className={'pos-cart-product'}>
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
-                      className={'max-w-full h-auto rounded-md'}
+                      className={'max-w-full h-full rounded-sm'}
                       src={'/assets/img/items/food-01.jpg'}
                       alt={'food-img'}
                     />
                   </div>{' '}
                   <div className={'overflow-hidden'}>
                     <h6 className={'mb-1 text-[14px] font-semibold truncate mb-2'}>
-                      {'Grilled Chicken'}
+                      {'Iced Americano'}
                     </h6>{' '}
                     <Badge className={'badge-md bg-muted text-foreground mb-0'}>
                       {'Small: 250 gms'}
@@ -2768,17 +2756,17 @@ export function PosRecentOrdersSection() {
                 <Button variant="ghost" className={'pos-cart-product'}>
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
-                      className={'max-w-full h-auto rounded-md'}
+                      className={'max-w-full h-full rounded-sm'}
                       src={'/assets/img/items/food-20.jpg'}
                       alt={'food-img'}
                     />
                   </div>{' '}
                   <div className={'overflow-hidden'}>
                     <h6 className={'mb-1 text-[14px] font-semibold truncate mb-2'}>
-                      {'Lobster Thermidor'}
+                      {'Café Mocha'}
                     </h6>{' '}
                     <Badge className={'badge-md bg-muted text-foreground mb-0'}>
-                      {'Half Lobster : 300 gms'}
+                      {'Regular: 12 oz'}
                     </Badge>{' '}
                   </div>{' '}
                 </Button>{' '}
@@ -2845,14 +2833,14 @@ export function PosRecentOrdersSection() {
                 <Button variant="ghost" className={'pos-cart-product'}>
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
-                      className={'max-w-full h-auto rounded-md'}
+                      className={'max-w-full h-full rounded-sm'}
                       src={'/assets/img/items/food-08.jpg'}
                       alt={'food-img'}
                     />
                   </div>{' '}
                   <div className={'overflow-hidden'}>
                     <h6 className={'mb-1 text-[14px] font-semibold truncate mb-2'}>
-                      {'Spinach & Corn Pizza'}
+                      {'Hazelnut Latte'}
                     </h6>{' '}
                     <Badge className={'badge-md bg-muted text-foreground mb-0'}>
                       {'Small: 6 inches'}

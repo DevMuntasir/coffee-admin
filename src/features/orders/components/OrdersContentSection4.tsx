@@ -116,14 +116,14 @@ export function OrdersContentSection4() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Grilled Chicken '}
+                        <span className={'dot'}></span> {'Iced Americano '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
                     </div>{' '}
                     <div className={'orders text-foreground mb-2'}>
                       <p>
-                        <span className={'dot'}></span> {'Chicken Taco - Medium'}
+                        <span className={'dot'}></span> {'Café Latte - Medium'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -136,7 +136,7 @@ export function OrdersContentSection4() {
                     </div>{' '}
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Lobster Thermidor'}
+                        <span className={'dot'}></span> {'Café Mocha'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -151,7 +151,7 @@ export function OrdersContentSection4() {
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot'}></span> {'Pumpkin Soup'}
+                          <span className={'dot'}></span> {'Almond Croissant'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -364,7 +364,7 @@ export function OrdersContentSection4() {
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Pumpkin Soup'}
+                          <span className={'dot success'}></span> {'Almond Croissant'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -542,7 +542,7 @@ export function OrdersContentSection4() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot success'}></span> {'Margherita Pizza '}
+                        <span className={'dot success'}></span> {'Margherita Hot Coffee '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -562,7 +562,7 @@ export function OrdersContentSection4() {
                     </div>{' '}
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot success'}></span> {'Grilled Salmon Steak'}
+                        <span className={'dot success'}></span> {'Classic Espresso'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -570,14 +570,14 @@ export function OrdersContentSection4() {
                     <div className={'more-menu'}>
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Cheese Burst Pizza'}
+                          <span className={'dot success'}></span> {'Cappuccino'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Chicken Noodle Soup'}
+                          <span className={'dot success'}></span> {'Masala Chai'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -755,7 +755,7 @@ export function OrdersContentSection4() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot success'}></span> {'Margherita Pizza '}
+                        <span className={'dot success'}></span> {'Margherita Hot Coffee '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×2'}</p>{' '}
@@ -775,7 +775,7 @@ export function OrdersContentSection4() {
                     </div>{' '}
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot success'}></span> {'Corn Pizza'}
+                        <span className={'dot success'}></span> {'Caramel Macchiato'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -783,14 +783,14 @@ export function OrdersContentSection4() {
                     <div className={'more-menu'}>
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Shrimp Tom Yum'}
+                          <span className={'dot success'}></span> {'Chocolate Muffin'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Tomato Basil Soup'}
+                          <span className={'dot success'}></span> {'Butter Croissant'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -1006,7 +1006,7 @@ export function OrdersContentSection4() {
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Lemon Mint Juice'}
+                          <span className={'dot success'}></span> {'Iced Lemon Tea'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -1207,7 +1207,7 @@ export function OrdersContentSection4() {
                     </div>{' '}
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Chicken Taco'}
+                        <span className={'dot'}></span> {'Café Latte'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -1215,14 +1215,14 @@ export function OrdersContentSection4() {
                     <div className={'more-menu'}>
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot'}></span> {'Garlic Butter Shrimp'}
+                          <span className={'dot'}></span> {'Flat White'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot'}></span> {'Cheese Burst Pizza'}
+                          <span className={'dot'}></span> {'Cappuccino'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -1412,14 +1412,14 @@ export function OrdersContentSection4() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Grilled Chicken '}
+                        <span className={'dot'}></span> {'Iced Americano '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
                     </div>{' '}
                     <div className={'orders text-foreground mb-2'}>
                       <p>
-                        <span className={'dot'}></span> {'Chicken Taco - Medium'}
+                        <span className={'dot'}></span> {'Café Latte - Medium'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -1432,7 +1432,7 @@ export function OrdersContentSection4() {
                     </div>{' '}
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Lobster Thermidor'}
+                        <span className={'dot'}></span> {'Café Mocha'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -1447,7 +1447,7 @@ export function OrdersContentSection4() {
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot'}></span> {'Pumpkin Soup'}
+                          <span className={'dot'}></span> {'Almond Croissant'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -1660,7 +1660,7 @@ export function OrdersContentSection4() {
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Tomato Basil Soup'}
+                          <span className={'dot success'}></span> {'Butter Croissant'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -1838,14 +1838,14 @@ export function OrdersContentSection4() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Grilled Chicken '}
+                        <span className={'dot'}></span> {'Iced Americano '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
                     </div>{' '}
                     <div className={'orders text-foreground mb-2'}>
                       <p>
-                        <span className={'dot'}></span> {'Chicken Noodle'}
+                        <span className={'dot'}></span> {'Masala Chai'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -1858,7 +1858,7 @@ export function OrdersContentSection4() {
                     </div>{' '}
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Grilled Salmon Steak'}
+                        <span className={'dot'}></span> {'Classic Espresso'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -1866,14 +1866,14 @@ export function OrdersContentSection4() {
                     <div className={'more-menu'}>
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot'}></span> {'Cheese Burst Pizza'}
+                          <span className={'dot'}></span> {'Cappuccino'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot'}></span> {'Chicken Noodle Soup'}
+                          <span className={'dot'}></span> {'Masala Chai'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -2095,7 +2095,7 @@ export function OrdersContentSection4() {
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Pumpkin Soup'}
+                          <span className={'dot success'}></span> {'Almond Croissant'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -2273,14 +2273,14 @@ export function OrdersContentSection4() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Grilled Chicken '}
+                        <span className={'dot'}></span> {'Iced Americano '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
                     </div>{' '}
                     <div className={'orders text-foreground mb-2'}>
                       <p>
-                        <span className={'dot'}></span> {'Chicken Noodle'}
+                        <span className={'dot'}></span> {'Masala Chai'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -2293,7 +2293,7 @@ export function OrdersContentSection4() {
                     </div>{' '}
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Grilled Salmon Steak'}
+                        <span className={'dot'}></span> {'Classic Espresso'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -2301,14 +2301,14 @@ export function OrdersContentSection4() {
                     <div className={'more-menu'}>
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot'}></span> {'Cheese Burst Pizza'}
+                          <span className={'dot'}></span> {'Cappuccino'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot'}></span> {'Chicken Noodle Soup'}
+                          <span className={'dot'}></span> {'Masala Chai'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -2530,7 +2530,7 @@ export function OrdersContentSection4() {
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Pumpkin Soup'}
+                          <span className={'dot success'}></span> {'Almond Croissant'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -2708,14 +2708,14 @@ export function OrdersContentSection4() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Chicken Noodle Soup '}
+                        <span className={'dot'}></span> {'Masala Chai '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
                     </div>{' '}
                     <div className={'orders text-foreground mb-2'}>
                       <p>
-                        <span className={'dot'}></span> {'Grilled Chicken'}
+                        <span className={'dot'}></span> {'Iced Americano'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -2728,7 +2728,7 @@ export function OrdersContentSection4() {
                     </div>{' '}
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Grilled Salmon Steak'}
+                        <span className={'dot'}></span> {'Classic Espresso'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -2743,7 +2743,7 @@ export function OrdersContentSection4() {
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot'}></span> {'Chicken Noodle'}
+                          <span className={'dot'}></span> {'Masala Chai'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -2924,7 +2924,7 @@ export function OrdersContentSection4() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot success'}></span> {'Shrimp Tom Yum'}
+                        <span className={'dot success'}></span> {'Chocolate Muffin'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -2952,14 +2952,14 @@ export function OrdersContentSection4() {
                     <div className={'more-menu'}>
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Garlic Butter Shrimp'}
+                          <span className={'dot success'}></span> {'Flat White'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Cheese Burst Pizza'}
+                          <span className={'dot success'}></span> {'Cappuccino'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -3146,14 +3146,14 @@ export function OrdersContentSection4() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Chicken Taco '}
+                        <span className={'dot'}></span> {'Café Latte '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
                     </div>{' '}
                     <div className={'orders text-foreground mb-2'}>
                       <p>
-                        <span className={'dot'}></span> {'Chicken Soup'}
+                        <span className={'dot'}></span> {'Chai Concentrate'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -3166,7 +3166,7 @@ export function OrdersContentSection4() {
                     </div>{' '}
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Grilled Salmon Steak'}
+                        <span className={'dot'}></span> {'Classic Espresso'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -3174,14 +3174,14 @@ export function OrdersContentSection4() {
                     <div className={'more-menu'}>
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot'}></span> {'Chicken Noodle'}
+                          <span className={'dot'}></span> {'Masala Chai'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot'}></span> {'Chicken Noodle Soup'}
+                          <span className={'dot'}></span> {'Masala Chai'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -3382,7 +3382,7 @@ export function OrdersContentSection4() {
                     </div>{' '}
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot success'}></span> {'Chicken Taco'}
+                        <span className={'dot success'}></span> {'Café Latte'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -3390,14 +3390,14 @@ export function OrdersContentSection4() {
                     <div className={'more-menu'}>
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Garlic Butter Shrimp'}
+                          <span className={'dot success'}></span> {'Flat White'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}
                       </div>{' '}
                       <div className={'orders text-foreground mb-4'}>
                         <p>
-                          <span className={'dot success'}></span> {'Cheese Burst Pizza'}
+                          <span className={'dot success'}></span> {'Cappuccino'}
                         </p>{' '}
                         <span className={'line'}></span>{' '}
                         <p className={'text-foreground'}>{'×1'}</p>{' '}

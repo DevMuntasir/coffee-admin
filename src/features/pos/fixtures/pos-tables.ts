@@ -926,7 +926,7 @@ export const tables: PreviewTableModel[] = [
             text: '1',
           },
           {
-            text: 'Grilled Salmon Steak',
+            text: 'Classic Espresso',
           },
           {
             text: '2',

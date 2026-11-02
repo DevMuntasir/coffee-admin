@@ -14,7 +14,7 @@ export function PosItemViewDialog() {
           </span>{' '}
         </div>{' '}
         <h4 className={'mb-1'}>{'Item Added'}</h4>{' '}
-        <p className={'mb-0'}>{'Lobster Thermidor Added to the cart'}</p>{' '}
+        <p className={'mb-0'}>{'Café Mocha Added to the cart'}</p>{' '}
       </div>{' '}
     </PreviewDialog>
   );

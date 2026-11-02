@@ -15,11 +15,11 @@ export const buttonVariants = cva(
         outline:
           'border border-border bg-card text-foreground shadow-xs hover:border-primary/25 hover:bg-primary/5 hover:text-primary',
         secondary: 'bg-secondary text-secondary-foreground hover:bg-secondary/75',
-        ghost: 'text-muted-foreground hover:bg-muted hover:text-foreground',
+        ghost: 'text-muted-foreground  hover:text-foreground',
         link: 'text-primary underline-offset-4 hover:underline',
       },
       size: {
-        default: 'h-10 px-4 py-2',
+        default: 'h-10 py-2',
         sm: 'h-9 px-3 text-xs',
         lg: 'h-12 px-6',
         icon: 'size-10 p-0',

@@ -42,7 +42,7 @@ export function AddonsFilterOffcanvasDialog() {
                         type={'checkbox'}
                         aria-label={'checkbox'}
                       />
-                      {'Pizza '}
+                      {'Hot Coffee '}
                     </label>{' '}
                   </div>{' '}
                   <div>
@@ -52,7 +52,7 @@ export function AddonsFilterOffcanvasDialog() {
                         type={'checkbox'}
                         aria-label={'checkbox'}
                       />
-                      {'Sea Food '}
+                      {'Espresso '}
                     </label>{' '}
                   </div>{' '}
                   <div>
@@ -133,7 +133,7 @@ export function AddonsFilterOffcanvasDialog() {
                         type={'checkbox'}
                         aria-label={'checkbox'}
                       />
-                      {'Grilled Shrimp '}
+                      {'Double Espresso '}
                     </label>{' '}
                   </div>{' '}
                   <div>

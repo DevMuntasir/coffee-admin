@@ -45,7 +45,7 @@ export function CategoriesEditCategoryDialog() {
             {'Category Name'}
             <span className={'text-red-600'}>{' *'}</span>{' '}
           </label>{' '}
-          <Input type={'text'} defaultValue={'Sea Food'} aria-label={'Category Name *'} />
+          <Input type={'text'} defaultValue={'Espresso'} aria-label={'Category Name *'} />
         </div>{' '}
         <div className={'flex items-center justify-between gap-2 pt-1'}>
           <DialogDismiss variant={'outline'} className={'w-full'} type={'button'}>

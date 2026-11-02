@@ -36,17 +36,17 @@ export function DashboardTrendingMenusSection() {
                   </li>{' '}
                   <li>
                     <Button variant="ghost" className={'block rounded px-3 py-2 hover:bg-muted'}>
-                      {'Sea Food'}
+                      {'Espresso'}
                     </Button>{' '}
                   </li>{' '}
                   <li>
                     <Button variant="ghost" className={'block rounded px-3 py-2 hover:bg-muted'}>
-                      {'Pizza'}
+                      {'Hot Coffee'}
                     </Button>{' '}
                   </li>{' '}
                   <li>
                     <Button variant="ghost" className={'block rounded px-3 py-2 hover:bg-muted'}>
-                      {'Salads'}
+                      {'Iced Coffee'}
                     </Button>{' '}
                   </li>{' '}
                 </ul>{' '}
@@ -58,7 +58,7 @@ export function DashboardTrendingMenusSection() {
                   <div className={'text-center mb-4'}>
                     <Button variant="ghost" aria-label={'Action'}>
                       <img
-                        className={'max-w-full h-auto rounded-md w-full'}
+                        className={'max-w-full h-full rounded-sm w-full'}
                         src={'/assets/img/menu/menu-01.jpg'}
                         alt={'menu'}
                       />
@@ -66,13 +66,13 @@ export function DashboardTrendingMenusSection() {
                   </div>{' '}
                   <div>
                     <h6 className={'text-[14px] font-semibold truncate mb-1'}>
-                      <Button variant="ghost">{'Grilled Chicken'}</Button>{' '}
+                      <Button variant="ghost">{'Iced Americano'}</Button>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between'}>
                       <p className={'mb-0'}>{'Orders : 48'}</p>{' '}
                       <p className={'mb-0 inline-flex items-center'}>
                         <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                        {'Non Veg'}
+                        {'Hot'}
                       </p>{' '}
                     </div>{' '}
                   </div>{' '}
@@ -83,7 +83,7 @@ export function DashboardTrendingMenusSection() {
                   <div className={'text-center mb-4'}>
                     <Button variant="ghost" aria-label={'Action'}>
                       <img
-                        className={'max-w-full h-auto rounded-md w-full'}
+                        className={'max-w-full h-full rounded-sm w-full'}
                         src={'/assets/img/menu/menu-02.jpg'}
                         alt={'menu'}
                       />
@@ -91,13 +91,13 @@ export function DashboardTrendingMenusSection() {
                   </div>{' '}
                   <div>
                     <h6 className={'text-[14px] font-semibold truncate mb-1'}>
-                      <Button variant="ghost">{'Grilled Veggie'}</Button>{' '}
+                      <Button variant="ghost">{'Matcha Latte'}</Button>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between'}>
                       <p className={'mb-0'}>{'Orders : 99'}</p>{' '}
                       <p className={'mb-0 inline-flex items-center'}>
                         <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                        {'Non Veg'}
+                        {'Hot'}
                       </p>{' '}
                     </div>{' '}
                   </div>{' '}
@@ -108,7 +108,7 @@ export function DashboardTrendingMenusSection() {
                   <div className={'text-center mb-4'}>
                     <Button variant="ghost" aria-label={'Action'}>
                       <img
-                        className={'max-w-full h-auto rounded-md w-full'}
+                        className={'max-w-full h-full rounded-sm w-full'}
                         src={'/assets/img/menu/menu-03.jpg'}
                         alt={'menu'}
                       />
@@ -116,13 +116,13 @@ export function DashboardTrendingMenusSection() {
                   </div>{' '}
                   <div>
                     <h6 className={'text-[14px] font-semibold truncate mb-1'}>
-                      <Button variant="ghost">{'Chicken Noodle'}</Button>{' '}
+                      <Button variant="ghost">{'Masala Chai'}</Button>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between'}>
                       <p className={'mb-0'}>{'Orders : 59'}</p>{' '}
                       <p className={'mb-0 inline-flex items-center'}>
                         <Icon name={'square-dot'} className={'text-red-600 mr-1'} />
-                        {'Non Veg'}
+                        {'Hot'}
                       </p>{' '}
                     </div>{' '}
                   </div>{' '}
@@ -133,7 +133,7 @@ export function DashboardTrendingMenusSection() {
                   <div className={'text-center mb-4'}>
                     <Button variant="ghost" aria-label={'Action'}>
                       <img
-                        className={'max-w-full h-auto rounded-md w-full'}
+                        className={'max-w-full h-full rounded-sm w-full'}
                         src={'/assets/img/menu/menu-04.jpg'}
                         alt={'menu'}
                       />
@@ -141,13 +141,13 @@ export function DashboardTrendingMenusSection() {
                   </div>{' '}
                   <div>
                     <h6 className={'text-[14px] font-semibold truncate mb-1'}>
-                      <Button variant="ghost">{'Corn Pizza'}</Button>{' '}
+                      <Button variant="ghost">{'Caramel Macchiato'}</Button>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between'}>
                       <p className={'mb-0'}>{'Orders : 69'}</p>{' '}
                       <p className={'mb-0 inline-flex items-center'}>
                         <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                        {'Veg'}
+                        {'Iced'}
                       </p>{' '}
                     </div>{' '}
                   </div>{' '}
@@ -158,7 +158,7 @@ export function DashboardTrendingMenusSection() {
                   <div className={'text-center mb-4'}>
                     <Button variant="ghost" aria-label={'Action'}>
                       <img
-                        className={'max-w-full h-auto rounded-md w-full'}
+                        className={'max-w-full h-full rounded-sm w-full'}
                         src={'/assets/img/menu/menu-05.jpg'}
                         alt={'menu'}
                       />
@@ -166,13 +166,13 @@ export function DashboardTrendingMenusSection() {
                   </div>{' '}
                   <div>
                     <h6 className={'text-[14px] font-semibold truncate mb-1'}>
-                      <Button variant="ghost">{'Pumpkin Soup'}</Button>{' '}
+                      <Button variant="ghost">{'Almond Croissant'}</Button>{' '}
                     </h6>{' '}
                     <div className={'flex items-center justify-between'}>
                       <p className={'mb-0'}>{'Orders : 78'}</p>{' '}
                       <p className={'mb-0 inline-flex items-center'}>
                         <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                        {'Veg'}
+                        {'Iced'}
                       </p>{' '}
                     </div>{' '}
                   </div>{' '}
@@ -183,7 +183,7 @@ export function DashboardTrendingMenusSection() {
                   <div className={'text-center mb-4'}>
                     <Button variant="ghost" aria-label={'Action'}>
                       <img
-                        className={'max-w-full h-auto rounded-md w-full'}
+                        className={'max-w-full h-full rounded-sm w-full'}
                         src={'/assets/img/menu/menu-06.jpg'}
                         alt={'menu'}
                       />
@@ -197,7 +197,7 @@ export function DashboardTrendingMenusSection() {
                       <p className={'mb-0'}>{'Orders : 99'}</p>{' '}
                       <p className={'mb-0 inline-flex items-center'}>
                         <Icon name={'square-dot'} className={'text-emerald-600 mr-1'} />
-                        {'Veg'}
+                        {'Iced'}
                       </p>{' '}
                     </div>{' '}
                   </div>{' '}

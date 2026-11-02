@@ -41,7 +41,7 @@ export function KanbanViewPayCompleteOrderDialog() {
                   'text-[14px] font-normal flex items-center justify-between mb-4 orders-two'
                 }
               >
-                {'Grilled Chicken ×1 '}
+                {'Iced Americano ×1 '}
                 <span className={'line'}></span>{' '}
                 <span className={'font-medium text-foreground'}>{'$49'}</span>{' '}
               </h6>{' '}
@@ -50,7 +50,7 @@ export function KanbanViewPayCompleteOrderDialog() {
                   'text-[14px] font-normal flex items-center justify-between mb-4 orders-two'
                 }
               >
-                {' Chicken Taco ×2 '}
+                {' Café Latte ×2 '}
                 <span className={'line'}></span>{' '}
                 <span className={'font-medium text-foreground'}>{' $66'}</span>{' '}
               </h6>{' '}
@@ -59,7 +59,7 @@ export function KanbanViewPayCompleteOrderDialog() {
                   'text-[14px] font-normal flex items-center justify-between mb-4 orders-two'
                 }
               >
-                {' Lobster Thermidor ×1 '}
+                {' Café Mocha ×1 '}
                 <span className={'line'}></span>{' '}
                 <span className={'font-medium text-foreground'}>{' $76'}</span>{' '}
               </h6>{' '}
@@ -68,7 +68,7 @@ export function KanbanViewPayCompleteOrderDialog() {
                   'text-[14px] font-normal flex items-center justify-between mb-0 orders-two'
                 }
               >
-                {' Grilled Chicken ×1 '}
+                {' Iced Americano ×1 '}
                 <span className={'line'}></span>{' '}
                 <span className={'font-medium text-foreground'}>{' $62'}</span>{' '}
               </h6>{' '}

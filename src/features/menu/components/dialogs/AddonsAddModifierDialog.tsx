@@ -44,8 +44,9 @@ export function AddonsAddModifierDialog() {
             <span className={'text-red-600'}>{' *'}</span>{' '}
           </label>{' '}
           <Select aria-label={'Item *'}>
-            <option>{'Select'}</option> <option>{'Pizza'}</option> <option>{'Sea Food'}</option>{' '}
-            <option>{'Salad'}</option> <option>{'Sauce'}</option> <option>{'Topping'}</option>{' '}
+            <option>{'Select'}</option> <option>{'Hot Coffee'}</option>{' '}
+            <option>{'Espresso'}</option> <option>{'Salad'}</option> <option>{'Sauce'}</option>{' '}
+            <option>{'Topping'}</option>{' '}
           </Select>{' '}
         </div>{' '}
         <div className={'mb-4'}>

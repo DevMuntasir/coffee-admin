@@ -97,17 +97,17 @@ export function DashboardTotalRevenueSection() {
                   </li>{' '}
                   <li>
                     <Button variant="ghost" className={'block rounded px-3 py-2 hover:bg-muted'}>
-                      {'Sea Food'}
+                      {'Espresso'}
                     </Button>{' '}
                   </li>{' '}
                   <li>
                     <Button variant="ghost" className={'block rounded px-3 py-2 hover:bg-muted'}>
-                      {'Pizza'}
+                      {'Hot Coffee'}
                     </Button>{' '}
                   </li>{' '}
                   <li>
                     <Button variant="ghost" className={'block rounded px-3 py-2 hover:bg-muted'}>
-                      {'Salads'}
+                      {'Iced Coffee'}
                     </Button>{' '}
                   </li>{' '}
                 </ul>{' '}
@@ -123,7 +123,7 @@ export function DashboardTotalRevenueSection() {
                 src={'/assets/img/icons/spark.png'}
                 alt={'icon'}
               />
-              {' Most Ordered : Veggie Supreme Pizza '}
+              {' Most Ordered : Vanilla Latte '}
             </Badge>{' '}
             <div className={'flex items-center border rounded-md p-2 mb-4'}>
               <Button
@@ -139,14 +139,14 @@ export function DashboardTotalRevenueSection() {
               </Button>{' '}
               <div>
                 <h6 className={'text-[14px] font-semibold mb-1'}>
-                  <Button variant="ghost">{'Veggie Supreme Pizza'}</Button>{' '}
+                  <Button variant="ghost">{'Vanilla Latte'}</Button>{' '}
                 </h6>{' '}
                 <p className={'text-[13px] mb-0'}>{'No of Orders : 520'}</p>{' '}
               </div>{' '}
             </div>{' '}
             <div className={'flex items-center justify-between mb-4'}>
               <h6 className={'text-[14px] font-semibold mb-0'}>
-                <span className={'text-muted-foreground'}>{'#2'}</span> {' Chicken Taco'}
+                <span className={'text-muted-foreground'}>{'#2'}</span> {' Café Latte'}
               </h6>{' '}
               <div className={'flex items-center gap-4 w-1/2'}>
                 <div className={'progress-stacked progress-sm w-full'}>
@@ -164,7 +164,7 @@ export function DashboardTotalRevenueSection() {
             </div>{' '}
             <div className={'flex items-center justify-between mb-4'}>
               <h6 className={'text-[14px] font-semibold mb-0'}>
-                <span className={'text-muted-foreground'}>{'#3'}</span> {' Grilled Chicken'}
+                <span className={'text-muted-foreground'}>{'#3'}</span> {' Iced Americano'}
               </h6>{' '}
               <div className={'flex items-center gap-4 w-1/2'}>
                 <div className={'progress-stacked progress-sm w-full'}>
@@ -182,7 +182,7 @@ export function DashboardTotalRevenueSection() {
             </div>{' '}
             <div className={'flex items-center justify-between mb-4'}>
               <h6 className={'text-[14px] font-semibold mb-0'}>
-                <span className={'text-muted-foreground'}>{'#4'}</span> {' Lemon Mint Juice'}
+                <span className={'text-muted-foreground'}>{'#4'}</span> {' Iced Lemon Tea'}
               </h6>{' '}
               <div className={'flex items-center gap-4 w-1/2'}>
                 <div className={'progress-stacked progress-sm w-full'}>
@@ -200,7 +200,7 @@ export function DashboardTotalRevenueSection() {
             </div>{' '}
             <div className={'flex items-center justify-between mb-0'}>
               <h6 className={'text-[14px] font-semibold mb-0'}>
-                <span className={'text-muted-foreground'}>{'#5'}</span> {' Chicken Taco'}
+                <span className={'text-muted-foreground'}>{'#5'}</span> {' Café Latte'}
               </h6>{' '}
               <div className={'flex items-center gap-4 w-1/2'}>
                 <div className={'progress-stacked progress-sm w-full'}>

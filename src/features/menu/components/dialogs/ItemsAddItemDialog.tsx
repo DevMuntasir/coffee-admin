@@ -85,9 +85,9 @@ export function ItemsAddItemDialog() {
                 <span className={'text-red-600'}>{' *'}</span>{' '}
               </label>{' '}
               <Select aria-label={'Category *'}>
-                <option>{'Select'}</option> <option>{'Sea Food'}</option> <option>{'Pizza'}</option>{' '}
-                <option>{'Salads'}</option> <option>{'Tacos'}</option>{' '}
-                <option>{'Burgers'}</option>{' '}
+                <option>{'Select'}</option> <option>{'Espresso'}</option>{' '}
+                <option>{'Hot Coffee'}</option> <option>{'Iced Coffee'}</option>{' '}
+                <option>{'Tea'}</option> <option>{'Signature Drinks'}</option>{' '}
               </Select>{' '}
             </div>{' '}
           </div>{' '}

@@ -43,7 +43,7 @@ export function CategoriesFilterOffcanvasDialog() {
                         type={'checkbox'}
                         aria-label={'checkbox'}
                       />
-                      {'Sea Food '}
+                      {'Espresso '}
                     </label>{' '}
                   </div>{' '}
                   <div>
@@ -53,7 +53,7 @@ export function CategoriesFilterOffcanvasDialog() {
                         type={'checkbox'}
                         aria-label={'checkbox'}
                       />
-                      {'Pizza '}
+                      {'Hot Coffee '}
                     </label>{' '}
                   </div>{' '}
                   <div>
@@ -63,7 +63,7 @@ export function CategoriesFilterOffcanvasDialog() {
                         type={'checkbox'}
                         aria-label={'checkbox'}
                       />
-                      {'Salads '}
+                      {'Iced Coffee '}
                     </label>{' '}
                   </div>{' '}
                   <div>
@@ -73,7 +73,7 @@ export function CategoriesFilterOffcanvasDialog() {
                         type={'checkbox'}
                         aria-label={'checkbox'}
                       />
-                      {'Tacos '}
+                      {'Tea '}
                     </label>{' '}
                   </div>{' '}
                   <div>
@@ -83,7 +83,7 @@ export function CategoriesFilterOffcanvasDialog() {
                         type={'checkbox'}
                         aria-label={'checkbox'}
                       />
-                      {'Burgers '}
+                      {'Signature Drinks '}
                     </label>{' '}
                   </div>{' '}
                 </div>{' '}

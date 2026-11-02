@@ -96,7 +96,7 @@ export function KanbanViewViewDetailsDialog() {
             </div>{' '}
             <div>
               <p className={'flex items-center gap-2 mb-2 text-foreground font-medium'}>
-                {'Margherita Pizza '}
+                {'Margherita Hot Coffee '}
                 <span>{'x1'}</span>{' '}
               </p>{' '}
               <div className={'bg-muted rounded-md py-1 px-2'}>

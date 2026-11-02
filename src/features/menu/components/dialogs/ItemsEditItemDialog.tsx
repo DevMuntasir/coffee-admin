@@ -14,7 +14,7 @@ export function ItemsEditItemDialog() {
             <div className={'mb-4 flex items-center flex-wrap gap-3'}>
               <div className={'avatar avatar-3xl border bg-muted mb-4'}>
                 <img
-                  className={'max-w-full h-auto rounded-md'}
+                  className={'max-w-full h-full rounded-sm'}
                   src={'/assets/img/items/food-10.jpg'}
                   alt={'item'}
                 />
@@ -51,7 +51,7 @@ export function ItemsEditItemDialog() {
                 {'Item Name'}
                 <span className={'text-red-600'}>{' *'}</span>{' '}
               </label>{' '}
-              <Input type={'text'} defaultValue={'Pasta'} aria-label={'Item Name *'} />
+              <Input type={'text'} defaultValue={'Cold Brew'} aria-label={'Item Name *'} />
             </div>{' '}
           </div>{' '}
           <div className={'col-span-12 lg:col-span-12'}>
@@ -65,7 +65,7 @@ export function ItemsEditItemDialog() {
                 rows={4}
                 aria-label={'Description *'}
                 defaultValue={
-                  'Pasta is a traditional Italian dish made from wheat flour, water, or eggs, shaped into a variety of forms.'
+                  'Slow-steeped coffee with a smooth body, naturally sweet finish, and low acidity.'
                 }
               ></Textarea>{' '}
               <span>{'Add Minimum 200 Characters'}</span>{' '}
@@ -96,9 +96,9 @@ export function ItemsEditItemDialog() {
                 <span className={'text-red-600'}>{' *'}</span>{' '}
               </label>{' '}
               <Select aria-label={'Category *'}>
-                <option>{'Select'}</option> <option>{'Sea Food'}</option> <option>{'Pizza'}</option>{' '}
-                <option>{'Salads'}</option> <option>{'Tacos'}</option>{' '}
-                <option>{'Burgers'}</option>{' '}
+                <option>{'Select'}</option> <option>{'Espresso'}</option>{' '}
+                <option>{'Hot Coffee'}</option> <option>{'Iced Coffee'}</option>{' '}
+                <option>{'Tea'}</option> <option>{'Signature Drinks'}</option>{' '}
               </Select>{' '}
             </div>{' '}
           </div>{' '}

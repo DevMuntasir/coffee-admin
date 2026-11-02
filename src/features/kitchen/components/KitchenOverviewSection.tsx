@@ -49,7 +49,7 @@ export function KitchenOverviewSection() {
               </div>{' '}
               <div className={'orders text-foreground mb-4 pb-4 border-bottom-dashed'}>
                 <p>
-                  <span className={'dot success'}></span> {'Lobster Thermidor'}
+                  <span className={'dot success'}></span> {'Café Mocha'}
                 </p>{' '}
                 <p className={'text-foreground'}>{'×1'}</p>{' '}
               </div>{' '}
@@ -147,7 +147,7 @@ export function KitchenOverviewSection() {
               </div>{' '}
               <div className={'orders text-foreground mb-0'}>
                 <p>
-                  <span className={'dot'}></span> {'Chicken Taco'}
+                  <span className={'dot'}></span> {'Café Latte'}
                 </p>{' '}
                 <p className={'text-foreground'}>{'×1'}</p>{' '}
               </div>{' '}
@@ -220,7 +220,7 @@ export function KitchenOverviewSection() {
               <div className={'border-bottom-dashed mb-4 pb-4'}>
                 <div className={'orders text-foreground mb-2'}>
                   <p>
-                    <span className={'dot Chicken'}></span> {'Margherita Pizza - Regular'}
+                    <span className={'dot Chicken'}></span> {'Margherita Hot Coffee - Regular'}
                   </p>{' '}
                   <p className={'text-foreground'}>{'×1'}</p>{' '}
                 </div>{' '}
@@ -425,13 +425,13 @@ export function KitchenOverviewSection() {
               </div>{' '}
               <div className={'orders text-foreground mb-4 pb-4 border-bottom-dashed'}>
                 <p>
-                  <span className={'dot'}></span> {'Grilled Chicken'}
+                  <span className={'dot'}></span> {'Iced Americano'}
                 </p>{' '}
                 <p className={'text-foreground'}>{'×1'}</p>{' '}
               </div>{' '}
               <div className={'orders text-foreground mb-0'}>
                 <p>
-                  <span className={'dot'}></span> {'Chicken Soup'}
+                  <span className={'dot'}></span> {'Chai Concentrate'}
                 </p>{' '}
                 <p className={'text-foreground'}>{'×1'}</p>{' '}
               </div>{' '}

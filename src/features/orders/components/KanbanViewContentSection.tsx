@@ -121,14 +121,14 @@ export function KanbanViewContentSection() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot'}></span> {'Grilled Chicken '}
+                        <span className={'dot'}></span> {'Iced Americano '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
                     </div>{' '}
                     <div className={'orders text-foreground mb-2'}>
                       <p>
-                        <span className={'dot'}></span> {'Chicken Taco - Medium'}
+                        <span className={'dot'}></span> {'Café Latte - Medium'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -141,7 +141,7 @@ export function KanbanViewContentSection() {
                     </div>{' '}
                     <div className={'orders text-foreground'}>
                       <p>
-                        <span className={'dot'}></span> {'Lobster Thermidor'}
+                        <span className={'dot'}></span> {'Café Mocha'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -389,7 +389,7 @@ export function KanbanViewContentSection() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot success'}></span> {'Margherita Pizza '}
+                        <span className={'dot success'}></span> {'Margherita Hot Coffee '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -409,7 +409,7 @@ export function KanbanViewContentSection() {
                     </div>{' '}
                     <div className={'orders text-foreground'}>
                       <p>
-                        <span className={'dot success'}></span> {'Grilled Salmon Steak'}
+                        <span className={'dot success'}></span> {'Classic Espresso'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -674,7 +674,7 @@ export function KanbanViewContentSection() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot success'}></span> {'Margherita Pizza '}
+                        <span className={'dot success'}></span> {'Margherita Hot Coffee '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -694,7 +694,7 @@ export function KanbanViewContentSection() {
                     </div>{' '}
                     <div className={'orders text-foreground'}>
                       <p>
-                        <span className={'dot success'}></span> {'Grilled Salmon Steak'}
+                        <span className={'dot success'}></span> {'Classic Espresso'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -825,7 +825,7 @@ export function KanbanViewContentSection() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot success'}></span> {'Margherita Pizza '}
+                        <span className={'dot success'}></span> {'Margherita Hot Coffee '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -845,7 +845,7 @@ export function KanbanViewContentSection() {
                     </div>{' '}
                     <div className={'orders text-foreground'}>
                       <p>
-                        <span className={'dot success'}></span> {'Grilled Salmon Steak'}
+                        <span className={'dot success'}></span> {'Classic Espresso'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -976,7 +976,7 @@ export function KanbanViewContentSection() {
                   <div className={'orders-list'}>
                     <div className={'orders text-foreground mb-4'}>
                       <p>
-                        <span className={'dot success'}></span> {'Margherita Pizza '}
+                        <span className={'dot success'}></span> {'Margherita Hot Coffee '}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}
@@ -996,7 +996,7 @@ export function KanbanViewContentSection() {
                     </div>{' '}
                     <div className={'orders text-foreground'}>
                       <p>
-                        <span className={'dot success'}></span> {'Grilled Salmon Steak'}
+                        <span className={'dot success'}></span> {'Classic Espresso'}
                       </p>{' '}
                       <span className={'line'}></span>{' '}
                       <p className={'text-foreground'}>{'×1'}</p>{' '}

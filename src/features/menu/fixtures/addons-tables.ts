@@ -8,7 +8,7 @@ export const tables: PreviewTableModel[] = [
         id: 'addons-1-1',
         cells: [
           {
-            text: 'Pizza',
+            text: 'Hot Coffee',
           },
           {
             text: 'Extra Cheese',
@@ -80,10 +80,10 @@ export const tables: PreviewTableModel[] = [
         id: 'addons-1-3',
         cells: [
           {
-            text: 'Sea Food',
+            text: 'Espresso',
           },
           {
-            text: 'Grilled Shrimp',
+            text: 'Double Espresso',
           },
           {
             text: '$20',

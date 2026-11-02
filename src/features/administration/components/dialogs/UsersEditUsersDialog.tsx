@@ -9,9 +9,9 @@ export function UsersEditUsersDialog() {
     <PreviewDialog id={'edit_users'} title={'Edit User'}>
       <div className={'modal-body p-6 pt-1'}>
         <div className={'flex items-center gap-3 flex-wrap mb-6'}>
-          <div className={'avatar avatar-3xl border bg-muted mb-4'}>
+          <div className={'avatar avatar-4xl border bg-muted mb-4'}>
             <img
-              className={'max-w-full h-auto rounded-md'}
+              className={'max-w-full h-full rounded-sm'}
               src={'/assets/img/profiles/avatar-03.jpg'}
               alt={'item'}
             />

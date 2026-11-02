@@ -5,7 +5,7 @@ import { Icon } from '@/shared/components/icon';
 
 export function PosItemsDetailsDialog() {
   return (
-    <PreviewDialog id={'items_details'} title={'Chicken Taco'}>
+    <PreviewDialog id={'items_details'} title={'Café Latte'}>
       <div className={'modal-body p-6'}>
         <div className={'grid grid-cols-12 gap-x-6 gap-6'}>
           <div className={'col-span-12 lg:col-span-6'}>
@@ -19,10 +19,10 @@ export function PosItemsDetailsDialog() {
           </div>{' '}
           <div className={'col-span-12 lg:col-span-6'}>
             <div className={'items-content'}>
-              <h4 className={'mb-2'}>{'Chicken Taco'}</h4>{' '}
+              <h4 className={'mb-2'}>{'Café Latte'}</h4>{' '}
               <p className={'mb-4'}>
                 {
-                  'Tender grilled chicken wrapped in soft tortillas, topped with fresh lettuce, salsa, and creamy sauce.'
+                  'Smooth espresso blended with steamed milk and finished with a light layer of foam.'
                 }
               </p>{' '}
               <div className={'items-info mb-6 pb-6 border-b'}>
@@ -62,7 +62,9 @@ export function PosItemsDetailsDialog() {
                           />
                         </div>{' '}
                         <div>
-                          <p className={'font-medium mb-1 text-foreground'}>{'Extra Chicken'}</p>{' '}
+                          <p className={'font-medium mb-1 text-foreground'}>
+                            {'Extra Espresso Shot'}
+                          </p>{' '}
                           <p className={'mb-0 font-medium'}>{'$2'}</p>{' '}
                         </div>{' '}
                       </div>{' '}
@@ -77,7 +79,7 @@ export function PosItemsDetailsDialog() {
                           />
                         </div>{' '}
                         <div>
-                          <p className={'font-medium mb-1 text-foreground'}>{'Grilled Chicken'}</p>{' '}
+                          <p className={'font-medium mb-1 text-foreground'}>{'Iced Americano'}</p>{' '}
                           <p className={'mb-0 font-medium'}>{'$8'}</p>{' '}
                         </div>{' '}
                       </div>{' '}
@@ -92,7 +94,7 @@ export function PosItemsDetailsDialog() {
                           />
                         </div>{' '}
                         <div>
-                          <p className={'font-medium mb-1 text-foreground'}>{'Chicken Soup'}</p>{' '}
+                          <p className={'font-medium mb-1 text-foreground'}>{'Chai Concentrate'}</p>{' '}
                           <p className={'mb-0 font-medium'}>{'$2'}</p>{' '}
                         </div>{' '}
                       </div>{' '}
