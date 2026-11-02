@@ -9,8 +9,9 @@ import { DashboardOverviewSection } from '../components/DashboardOverviewSection
 export default function DashboardPage() {
   return (
     <PreviewProvider defaultTabs={{}}>
-      <DashboardHeaderSection />
-      <DashboardOverviewSection />
+      {/* <DashboardHeaderSection /> */}
+      Comming soon...
+      {/* <DashboardOverviewSection /> */}
       {/* <DashboardTotalRevenueSection />
       <DashboardCategoryStatisticsSection />
       <DashboardTrendingMenusSection />
