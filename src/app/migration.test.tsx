@@ -8,7 +8,7 @@ import { setTheme } from './ui-slice';
 import manifest from './page-manifest.json';
 import { navigation } from './navigation';
 
-// Keep route coverage dynamic so newly added feature pages, including CMS screens, are validated.
+// Keep route coverage dynamic so newly added feature pages, including CMS inbox screens, are validated.
 const pages = import.meta.glob<{ default: React.ComponentType }>('../features/*/pages/*Page.tsx', {
   eager: true,
 });

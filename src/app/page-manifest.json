@@ -8,6 +8,14 @@
     "layout": "workspace"
   },
   {
+    "slug": "contact-messages",
+    "legacy": "contact-messages.html",
+    "feature": "cms",
+    "page": "ContactMessagesPage",
+    "title": "Contact Messages",
+    "layout": "workspace"
+  },
+  {
     "slug": "audit-report",
     "legacy": "audit-report.html",
     "feature": "reports",

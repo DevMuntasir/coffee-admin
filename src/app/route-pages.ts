@@ -2,6 +2,7 @@ import { lazy } from 'react';
 
 export const routePages = {
   'website-cms': lazy(() => import('@/features/settings/pages/WebsiteCmsPage')),
+  'contact-messages': lazy(() => import('@/features/cms/pages/ContactMessagesPage')),
   'audit-report': lazy(() => import('@/features/reports/pages/AuditReportPage')),
   categories: lazy(() => import('@/features/menu/pages/CategoriesPage')),
   'customer-report': lazy(() => import('@/features/reports/pages/CustomerReportPage')),

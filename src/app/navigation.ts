@@ -7,6 +7,7 @@ import {
   LockKeyhole,
   Mail,
   PanelsTopLeft,
+  MessagesSquare,
   Store,
   UserRoundPlus,
   Users
@@ -55,7 +56,10 @@ export const navigation = [
   },
   {
     label: 'WEBSITE CMS',
-    items: [{ label: 'Website Content', path: '/website-cms', icon: PanelsTopLeft }],
+    items: [
+      { label: 'Website Content', path: '/website-cms', icon: PanelsTopLeft },
+      { label: 'Contact Messages', path: '/contact-messages', icon: MessagesSquare },
+    ],
   },
   {
     label: 'SETTINGS',

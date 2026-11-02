@@ -94,4 +94,5 @@ export const sidebarItemIcons: Readonly<Record<string, string>> = {
   '/notifications-settings': 'bell',
   '/integrations-settings': 'pin',
   '/website-cms': 'panels-top-left',
+  '/contact-messages': 'messages-square',
 };
