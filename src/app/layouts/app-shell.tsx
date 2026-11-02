@@ -71,14 +71,14 @@ export function AppShell() {
         id="main-content"
         tabIndex={-1}
         className={cn(
-          'workspace-main min-w-0 px-4 pb-6 pt-[82px] outline-none md:px-6',
+          'workspace-main min-w-0 px-4 pb-8 pt-[86px] outline-none md:px-7 xl:px-8',
           isPos && 'pos-workspace',
         )}
       >
         <Suspense fallback={<LoadingScreen />}>
           <Outlet key={pathname} />
         </Suspense>
-        <footer className="mt-6 flex flex-wrap justify-between gap-2 border-t pt-4 text-xs text-muted-foreground">
+        <footer className="mt-8 flex flex-wrap justify-between gap-2 border-t border-border/70 pt-5 text-xs text-muted-foreground">
           <span>Restaurant POS</span>
           {/* <span>Template data · UI preview</span> */}
         </footer>

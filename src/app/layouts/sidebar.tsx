@@ -12,9 +12,7 @@ interface SidebarProps {
   onToggleCollapse?: () => void;
   mobile?: boolean;
 }
-const stores = [
-  { name: 'Adda Time', image: '/assets/img/store/store-01.jpg' },
-];
+const stores = [{ name: 'Adda Time', image: '/assets/img/store/store-01.jpg' }];
 
 function SidebarStoreSelector() {
   const [selectedStore, setSelectedStore] = useState(stores[0]);
@@ -150,7 +148,11 @@ export function Sidebar({
           <ul className="sidebar-menu-items">
             {selectedSection.items.map((item) => (
               <li key={item.path}>
-                <NavLink to={item.path} onClick={onNavigate} className="sidebar-menu-link">
+                <NavLink
+                  to={item.path}
+                  onClick={onNavigate}
+                  className={({ isActive }) => cn('sidebar-menu-link', isActive && 'active')}
+                >
                   <Icon name={sidebarItemIcons[item.path] ?? 'file-spreadsheet'} />
                   <span>{item.label}</span>
                 </NavLink>

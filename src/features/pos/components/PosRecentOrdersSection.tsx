@@ -11,8 +11,8 @@ export function PosRecentOrdersSection() {
   return (
     <div className={'grid grid-cols-12 gap-x-6 gap-0'}>
       <div className={'col-span-12 lg:col-span-8 pos-left'}>
-        <div className={'slider-wrapper mb-6 pb-6 border-b'}>
-          <div className={'flex items-center flex-wrap gap-3 mb-6'}>
+        {/* <div className={'slider-wrapper mb-6 pb-6 border-b'}> */}
+        {/* <div className={'flex items-center flex-wrap gap-3 mb-6'}>
             <h3 className={'mb-0'}>{'Recent Orders'}</h3>{' '}
             <div className={'flex items-center flex-wrap justify-between gap-2 flex-1'}>
               <ul
@@ -79,8 +79,8 @@ export function PosRecentOrdersSection() {
                 </Button>{' '}
               </div>{' '}
             </div>{' '}
-          </div>{' '}
-          <div className={'tab-content'}>
+          </div>{' '} */}
+        {/* <div className={'tab-content'}>
             <PreviewTabPanel group={'tabs-0'} value={'all'} className={'tab-pane'} id={'all'}>
               <div className={'all-slider'}>
                 <div className={'slide-item'}>
@@ -1040,13 +1040,13 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </PreviewTabPanel>
             )}{' '}
-          </div>{' '}
-        </div>{' '}
-        <div className={'flex items-center justify-between flex-wrap gap-2 mb-4'}>
-          <div className={'flex items-center gap-2 flex-wrap'}>
+          </div>{' '} */}
+        {/* </div>{' '} */}
+        <div className={'pos-menu-toolbar'}>
+          <div className={'pos-menu-toolbar-title'}>
             <h5 className={'mb-0 mr-2'}>{'Menu Categories'}</h5>{' '}
           </div>{' '}
-          <div className={'flex items-center gap-2 flex-wrap orders-list'}>
+          <div className={'pos-menu-filters'}>
             <label className={'flex items-center text-[14px] text-foreground'}>
               <input
                 className={'size-4 accent-primary m-0 mr-2'}
@@ -1073,7 +1073,7 @@ export function PosRecentOrdersSection() {
               <span className={'dot warning mr-1'}></span> {' Egg '}
             </label>{' '}
           </div>{' '}
-          <div className={'flex items-center gap-2 flex-wrap'}>
+          <div className={'pos-menu-actions'}>
             <div className={'page-search'}>
               <Input
                 className={'h-8 pr-6'}
@@ -1245,7 +1245,7 @@ export function PosRecentOrdersSection() {
           >
             <div className={'grid grid-cols-12 gap-x-6 gap-4'}>
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1295,7 +1295,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1345,7 +1345,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1391,7 +1391,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1438,7 +1438,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1487,7 +1487,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1531,7 +1531,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1577,7 +1577,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1625,7 +1625,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1669,7 +1669,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1713,7 +1713,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1759,7 +1759,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1814,7 +1814,7 @@ export function PosRecentOrdersSection() {
           >
             <div className={'grid grid-cols-12 gap-x-6 gap-4'}>
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1864,7 +1864,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1910,7 +1910,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -1954,7 +1954,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -2009,7 +2009,7 @@ export function PosRecentOrdersSection() {
           >
             <div className={'grid grid-cols-12 gap-x-6 gap-4'}>
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -2059,7 +2059,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -2112,7 +2112,7 @@ export function PosRecentOrdersSection() {
           >
             <div className={'grid grid-cols-12 gap-x-6 gap-4'}>
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -2160,7 +2160,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -2215,7 +2215,7 @@ export function PosRecentOrdersSection() {
           >
             <div className={'grid grid-cols-12 gap-x-6 gap-4'}>
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -2271,7 +2271,7 @@ export function PosRecentOrdersSection() {
           >
             <div className={'grid grid-cols-12 gap-x-6 gap-4'}>
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -2320,7 +2320,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -2364,7 +2364,7 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
               <div className={'col-span-12 xl:col-span-3 md:col-span-4 sm:col-span-6'}>
-                <div className={'bg-card rounded-md border p-2'}>
+                <div className={'pos-menu-card'}>
                   <div className={'food-items relative mb-2'}>
                     <DialogAction target={'items_details'} aria-label={'Action'}>
                       <img
@@ -2609,9 +2609,9 @@ export function PosRecentOrdersSection() {
                 </span>{' '}
               </p>{' '}
             </div>{' '}
-            <div className={'menu-item p-2 rounded-md border shadow-sm mb-4'}>
-              <div className={'flex items-center justify-between flex-wrap xl:flex-nowrap gap-2'}>
-                <Button variant="ghost" className={'flex items-center overflow-hidden'}>
+            <div className={'pos-cart-item'}>
+              <div className={'pos-cart-layout'}>
+                <Button variant="ghost" className={'pos-cart-product'}>
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
                       className={'max-w-full h-auto rounded-md'}
@@ -2628,7 +2628,7 @@ export function PosRecentOrdersSection() {
                     </Badge>{' '}
                   </div>{' '}
                 </Button>{' '}
-                <div className={'flex items-center gap-2 shrink-0'}>
+                <div className={'pos-cart-actions'}>
                   <div className={'quantity-control'}>
                     <Button className={'minus-btn'} type={'button'} aria-label={'minus'}>
                       <Icon name={'minus'} className={''} />
@@ -2648,7 +2648,7 @@ export function PosRecentOrdersSection() {
                     variant={'outline'}
                     className={'text-[12px] py-1 px-2'}
                   >
-                    {'Add Note'}
+                    {'Note'}
                   </DialogAction>{' '}
                   <Button
                     variant={'outline'}
@@ -2686,9 +2686,9 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
             </div>{' '}
-            <div className={'menu-item p-2 rounded-md border shadow-sm mb-4'}>
-              <div className={'flex items-center justify-between flex-wrap xl:flex-nowrap gap-2'}>
-                <Button variant="ghost" className={'flex items-center overflow-hidden'}>
+            <div className={'pos-cart-item'}>
+              <div className={'pos-cart-layout'}>
+                <Button variant="ghost" className={'pos-cart-product'}>
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
                       className={'max-w-full h-auto rounded-md'}
@@ -2705,7 +2705,7 @@ export function PosRecentOrdersSection() {
                     </Badge>{' '}
                   </div>{' '}
                 </Button>{' '}
-                <div className={'flex items-center gap-2 justify-end shrink-0'}>
+                <div className={'pos-cart-actions'}>
                   <div className={'quantity-control'}>
                     <Button className={'minus-btn'} type={'button'} aria-label={'minus'}>
                       <Icon name={'minus'} className={''} />
@@ -2725,7 +2725,7 @@ export function PosRecentOrdersSection() {
                     variant={'outline'}
                     className={'text-[12px] py-1 px-2'}
                   >
-                    {'Add Note'}
+                    {'Note'}
                   </DialogAction>{' '}
                   <Button
                     variant={'outline'}
@@ -2763,9 +2763,9 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
             </div>{' '}
-            <div className={'menu-item p-2 rounded-md border shadow-sm mb-4'}>
-              <div className={'flex items-center justify-between flex-wrap xl:flex-nowrap gap-2'}>
-                <Button variant="ghost" className={'flex items-center overflow-hidden'}>
+            <div className={'pos-cart-item'}>
+              <div className={'pos-cart-layout'}>
+                <Button variant="ghost" className={'pos-cart-product'}>
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
                       className={'max-w-full h-auto rounded-md'}
@@ -2782,7 +2782,7 @@ export function PosRecentOrdersSection() {
                     </Badge>{' '}
                   </div>{' '}
                 </Button>{' '}
-                <div className={'flex items-center gap-2 justify-end shrink-0'}>
+                <div className={'pos-cart-actions'}>
                   <div className={'quantity-control'}>
                     <Button className={'minus-btn'} type={'button'} aria-label={'minus'}>
                       <Icon name={'minus'} className={''} />
@@ -2802,7 +2802,7 @@ export function PosRecentOrdersSection() {
                     variant={'outline'}
                     className={'text-[12px] py-1 px-2'}
                   >
-                    {'Add Note'}
+                    {'Note'}
                   </DialogAction>{' '}
                   <Button
                     variant={'outline'}
@@ -2840,9 +2840,9 @@ export function PosRecentOrdersSection() {
                 </div>{' '}
               </div>{' '}
             </div>{' '}
-            <div className={'menu-item p-2 rounded-md border shadow-sm mb-4'}>
-              <div className={'flex items-center justify-between flex-wrap xl:flex-nowrap gap-2'}>
-                <Button variant="ghost" className={'flex items-center overflow-hidden'}>
+            <div className={'pos-cart-item'}>
+              <div className={'pos-cart-layout'}>
+                <Button variant="ghost" className={'pos-cart-product'}>
                   <div className={'avatar avatar-lg shrink-0 mr-2'}>
                     <img
                       className={'max-w-full h-auto rounded-md'}
@@ -2859,7 +2859,7 @@ export function PosRecentOrdersSection() {
                     </Badge>{' '}
                   </div>{' '}
                 </Button>{' '}
-                <div className={'flex items-center gap-2 justify-end shrink-0'}>
+                <div className={'pos-cart-actions'}>
                   <div className={'quantity-control'}>
                     <Button className={'minus-btn'} type={'button'} aria-label={'minus'}>
                       <Icon name={'minus'} className={''} />
@@ -2879,7 +2879,7 @@ export function PosRecentOrdersSection() {
                     variant={'outline'}
                     className={'text-[12px] py-1 px-2'}
                   >
-                    {'Add Note'}
+                    {'Note'}
                   </DialogAction>{' '}
                   <Button
                     variant={'outline'}
@@ -2958,7 +2958,7 @@ export function PosRecentOrdersSection() {
                   {'Invoice'}
                 </DialogAction>{' '}
               </div>{' '}
-              <div className={'col-span-12 sm:col-span-4'}>
+              {/* <div className={'col-span-12 sm:col-span-4'}>
                 <DialogAction
                   target={'draft_details'}
                   variant={'outline'}
@@ -2967,8 +2967,8 @@ export function PosRecentOrdersSection() {
                   <Icon name={'files'} className={''} />
                   {'Draft'}
                 </DialogAction>{' '}
-              </div>{' '}
-              <div className={'col-span-12 sm:col-span-4'}>
+              </div>{' '} */}
+              {/* <div className={'col-span-12 sm:col-span-4'}>
                 <DialogAction
                   target={'delete_modal'}
                   variant={'outline'}
@@ -2977,8 +2977,8 @@ export function PosRecentOrdersSection() {
                   <Icon name={'x'} className={''} />
                   {'Cancel'}
                 </DialogAction>{' '}
-              </div>{' '}
-              <div className={'col-span-12 sm:col-span-4'}>
+              </div>{' '} */}
+              {/* <div className={'col-span-12 sm:col-span-4'}>
                 <Button
                   variant={'outline'}
                   className={'h-8 text-xs flex items-center gap-1 shadow-xs'}
@@ -2986,7 +2986,7 @@ export function PosRecentOrdersSection() {
                   <Icon name={'zap'} className={''} />
                   {'Void'}
                 </Button>{' '}
-              </div>{' '}
+              </div>{' '} */}
               <div className={'col-span-12 sm:col-span-4'}>
                 <DialogAction
                   target={'transactions_details'}

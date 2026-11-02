@@ -13,7 +13,7 @@ export interface DataTableProps<T> {
 /** Rendering only. Filtering, pagination, and server state belong to the owning feature. */
 export function DataTable<T>({ columns, rows, getRowId }: DataTableProps<T>) {
   return (
-    <div className="overflow-x-auto rounded-lg border">
+    <div className="overflow-x-auto rounded-2xl border border-border/80 bg-card">
       <Table>
         <thead>
           <tr>

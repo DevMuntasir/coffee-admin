@@ -27,7 +27,7 @@ export function PosTransactionsDetailsDialog() {
               {'Sale'}
             </PreviewTabTrigger>{' '}
           </li>{' '}
-          <li className={'shrink-0'}>
+          {/* <li className={'shrink-0'}>
             <PreviewTabTrigger
               group={'tabs-3'}
               value={'order-tab16'}
@@ -38,7 +38,7 @@ export function PosTransactionsDetailsDialog() {
               <Icon name={'file-scan'} className={''} />
               {'Draft'}
             </PreviewTabTrigger>{' '}
-          </li>{' '}
+          </li>{' '} */}
         </ul>{' '}
         <div className={'flex items-center justify-between gap-2 flex-wrap mb-4'}>
           <div className={'relative flex items-center w-auto'}>
