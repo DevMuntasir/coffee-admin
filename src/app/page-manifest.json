@@ -1,0 +1,258 @@
+[
+  {
+    "slug": "audit-report",
+    "legacy": "audit-report.html",
+    "feature": "reports",
+    "page": "AuditReportPage",
+    "title": "Audit Logs",
+    "layout": "workspace"
+  },
+  {
+    "slug": "categories",
+    "legacy": "categories.html",
+    "feature": "menu",
+    "page": "CategoriesPage",
+    "title": "Categories",
+    "layout": "workspace"
+  },
+  {
+    "slug": "customer-report",
+    "legacy": "customer-report.html",
+    "feature": "reports",
+    "page": "CustomerReportPage",
+    "title": "Customer Report",
+    "layout": "workspace"
+  },
+  {
+    "slug": "customer",
+    "legacy": "customer.html",
+    "feature": "customers",
+    "page": "CustomerPage",
+    "title": "Customer",
+    "layout": "workspace"
+  },
+  {
+    "slug": "delivery-settings",
+    "legacy": "delivery-settings.html",
+    "feature": "settings",
+    "page": "DeliverySettingsPage",
+    "title": "Delivery Settings",
+    "layout": "workspace"
+  },
+  {
+    "slug": "earning-report",
+    "legacy": "earning-report.html",
+    "feature": "reports",
+    "page": "EarningReportPage",
+    "title": "Earning Report",
+    "layout": "workspace"
+  },
+  {
+    "slug": "email-verification",
+    "legacy": "email-verification.html",
+    "feature": "auth",
+    "page": "EmailVerificationPage",
+    "title": "Email Verification",
+    "layout": "auth"
+  },
+  {
+    "slug": "forgot-password",
+    "legacy": "forgot-password.html",
+    "feature": "auth",
+    "page": "ForgotPasswordPage",
+    "title": "Forgot Password",
+    "layout": "auth"
+  },
+  {
+    "slug": "dashboard",
+    "legacy": "index.html",
+    "feature": "dashboard",
+    "page": "DashboardPage",
+    "title": "Dashboard",
+    "layout": "workspace"
+  },
+  {
+    "slug": "integrations-settings",
+    "legacy": "integrations-settings.html",
+    "feature": "settings",
+    "page": "IntegrationsSettingsPage",
+    "title": "Integrations / API",
+    "layout": "workspace"
+  },
+  {
+    "slug": "invoice-details",
+    "legacy": "invoice-details.html",
+    "feature": "billing",
+    "page": "InvoiceDetailsPage",
+    "title": "Invoice Details",
+    "layout": "workspace"
+  },
+  {
+    "slug": "invoices",
+    "legacy": "invoices.html",
+    "feature": "billing",
+    "page": "InvoicesPage",
+    "title": "Invoices",
+    "layout": "workspace"
+  },
+  {
+    "slug": "items",
+    "legacy": "items.html",
+    "feature": "menu",
+    "page": "ItemsPage",
+    "title": "Items",
+    "layout": "workspace"
+  },
+  {
+    "slug": "kanban-view",
+    "legacy": "kanban-view.html",
+    "feature": "orders",
+    "page": "KanbanViewPage",
+    "title": "Kanban View",
+    "layout": "workspace"
+  },
+  {
+    "slug": "kitchen",
+    "legacy": "kitchen.html",
+    "feature": "kitchen",
+    "page": "KitchenPage",
+    "title": "Kitchen",
+    "layout": "workspace"
+  },
+  {
+    "slug": "login",
+    "legacy": "login.html",
+    "feature": "auth",
+    "page": "LoginPage",
+    "title": "Login",
+    "layout": "auth"
+  },
+  {
+    "slug": "notifications-settings",
+    "legacy": "notifications-settings.html",
+    "feature": "settings",
+    "page": "NotificationsSettingsPage",
+    "title": "Notifications Settings",
+    "layout": "workspace"
+  },
+  {
+    "slug": "order-report",
+    "legacy": "order-report.html",
+    "feature": "reports",
+    "page": "OrderReportPage",
+    "title": "Order Report",
+    "layout": "workspace"
+  },
+  {
+    "slug": "orders",
+    "legacy": "orders.html",
+    "feature": "orders",
+    "page": "OrdersPage",
+    "title": "Orders",
+    "layout": "workspace"
+  },
+  {
+    "slug": "otp",
+    "legacy": "otp.html",
+    "feature": "auth",
+    "page": "OtpPage",
+    "title": "OTP",
+    "layout": "auth"
+  },
+  {
+    "slug": "payment-settings",
+    "legacy": "payment-settings.html",
+    "feature": "settings",
+    "page": "PaymentSettingsPage",
+    "title": "Payment Settings",
+    "layout": "workspace"
+  },
+  {
+    "slug": "payments",
+    "legacy": "payments.html",
+    "feature": "billing",
+    "page": "PaymentsPage",
+    "title": "Payments",
+    "layout": "workspace"
+  },
+  {
+    "slug": "pos",
+    "legacy": "pos.html",
+    "feature": "pos",
+    "page": "PosPage",
+    "title": "POS",
+    "layout": "workspace"
+  },
+  {
+    "slug": "print-settings",
+    "legacy": "print-settings.html",
+    "feature": "settings",
+    "page": "PrintSettingsPage",
+    "title": "Print Settings",
+    "layout": "workspace"
+  },
+  {
+    "slug": "register",
+    "legacy": "register.html",
+    "feature": "auth",
+    "page": "RegisterPage",
+    "title": "Register",
+    "layout": "auth"
+  },
+  {
+    "slug": "reservations",
+    "legacy": "reservations.html",
+    "feature": "reservations",
+    "page": "ReservationsPage",
+    "title": "Reservations",
+    "layout": "workspace"
+  },
+  {
+    "slug": "reset-password",
+    "legacy": "reset-password.html",
+    "feature": "auth",
+    "page": "ResetPasswordPage",
+    "title": "Reset Password",
+    "layout": "auth"
+  },
+  {
+    "slug": "role-permission",
+    "legacy": "role-permission.html",
+    "feature": "administration",
+    "page": "RolePermissionPage",
+    "title": "Role & Permissions",
+    "layout": "workspace"
+  },
+  {
+    "slug": "sales-report",
+    "legacy": "sales-report.html",
+    "feature": "reports",
+    "page": "SalesReportPage",
+    "title": "Sales Report",
+    "layout": "workspace"
+  },
+  {
+    "slug": "store-settings",
+    "legacy": "store-settings.html",
+    "feature": "settings",
+    "page": "StoreSettingsPage",
+    "title": "Store Settings",
+    "layout": "workspace"
+  },
+  {
+    "slug": "tax-settings",
+    "legacy": "tax-settings.html",
+    "feature": "settings",
+    "page": "TaxSettingsPage",
+    "title": "Tax Settings",
+    "layout": "workspace"
+  },
+  {
+    "slug": "users",
+    "legacy": "users.html",
+    "feature": "administration",
+    "page": "UsersPage",
+    "title": "Users",
+    "layout": "workspace"
+  }
+]
