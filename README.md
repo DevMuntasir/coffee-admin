@@ -25,6 +25,16 @@ npm run format:check
 
 Browser checks use installed Google Chrome on Windows. On other systems, run `npx playwright install chromium` once. The browser suite starts and stops its own Vite server. The production output is `dist/`; configure the web server to rewrite application paths to `/index.html` for direct route visits.
 
+## Deploy to Vercel
+
+Import this Git repository into Vercel. Use the repository root (`.`) as the Root Directory and select Node.js 24.x in Project Settings. The committed `vercel.json` sets the Vite framework, installs dependencies with `npm ci`, runs `npm run build`, and publishes `dist/`. Its SPA rewrite supports direct visits and refreshes on React Router routes, including legacy `.html` links.
+
+If connecting a backend, add `VITE_API_BASE_URL` in Vercel's Environment Variables for Production and Preview, using the full HTTPS API base URL (for example, `https://api.example.com/api`). Allow the frontend origin in the backend's CORS settings. Vite embeds this value during the build, so redeploy after changing it. Do not put secrets in `VITE_` variables: they are public browser configuration.
+
+The current UI preview can deploy without environment variables. The default `/api` is only a placeholder; this repository does not deploy a backend or proxy API requests.
+
+Deploy the imported project, then verify the dashboard, a direct nested route, a page refresh, and static images. See the [official Vercel Vite guide](https://vercel.com/docs/frameworks/frontend/vite) for deployment details.
+
 ## Scope
 
 This is the UI conversion phase: existing screen content, static sample data, responsive layouts, navigation, theme switching, dropdown previews, tabs, and dialog previews. Forms prevent submission. Saving, deletion, login, checkout, payment, filtering, export, drag-and-drop, calculations, and other business operations are intentionally not connected. The interface identifies itself as a preview; sample data is not live.
